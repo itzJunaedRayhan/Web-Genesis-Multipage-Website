@@ -1,0 +1,176 @@
+.about-team-section {
+    h2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #0B0036;
+        padding: 110px 0px;
+    }
+
+    .about-team-wrapper {
+        max-width: 550px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .about-team {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            position: relative; 
+            overflow: hidden;
+            img {
+                width: 250px;
+                height: 250px;
+                margin-left: -10px;
+            }
+
+            .about-team-content {
+                width: 120%;
+                height: 120%;
+                background: rgba(225, 0, 19, 0.7);
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                visibility: hidden;
+                opacity: 0;
+                cursor: pointer;
+                transition: all 1s ease;
+                h3 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 28px;
+                    text-transform: capitalize;
+                    color: #FFFFFF;
+                }
+
+                p {
+                    color: #fff;
+                    max-width: 202px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    text-align: center;
+                    text-transform: capitalize;
+                    margin: 5px 25px;
+                }
+
+                a {
+                    background-color: #fff;
+                    display: block;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 10px;
+                    line-height: 20px;
+                    text-transform: capitalize;
+                    color: #EA1C2D;
+                    padding: 8px 12px;
+                    border-radius: 5px;
+                }
+            }
+            &:hover {
+                .about-team-content {
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+
+    //  Ambassador-wrapper:
+    .ambassador-wrapper {
+        max-width: 850px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .ambassador {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            position: relative; 
+            overflow: hidden;
+            margin-bottom: 100px;
+            img {
+                width: 250px;
+                height: 250px;
+                margin-left: -10px;
+            }
+
+            .ambassador-content {
+                width: 120%;
+                height: 120%;
+                background: rgba(225, 0, 19, 0.7);
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                visibility: hidden;
+                opacity: 0;
+                cursor: pointer;
+                transition: all 1s ease;
+                h3 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 28px;
+                    text-transform: capitalize;
+                    color: #FFFFFF;
+                }
+
+                p {
+                    color: #fff;
+                    max-width: 202px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 24px;
+                    text-align: center;
+                    text-transform: capitalize;
+                    margin: 5px 25px;
+                }
+
+                a {
+                    background-color: #fff;
+                    display: block;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 10px;
+                    line-height: 20px;
+                    text-transform: capitalize;
+                    color: #EA1C2D;
+                    padding: 10px 15px;
+                    border-radius: 5px;
+                }
+            }
+            &:hover {
+                .ambassador-content {
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

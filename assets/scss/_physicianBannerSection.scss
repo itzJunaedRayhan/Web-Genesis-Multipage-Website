@@ -1,0 +1,25 @@
+.physician-banner-section {
+    .resources-banner-wrapper {
+        background: url('../../images/resources/Banner\ 2.png');
+        background-repeat: no-repeat;
+
+        .resources-banner-title {
+            align-items: flex-start;
+            padding-top: 70px;
+            .physician-title {
+                max-width: 560px;
+                margin: 5px auto;
+                padding-bottom: 40px;
+                position: relative;
+                .light-blink {
+                    position: absolute;
+                    width: 55px;
+                    height: 42px;
+                    transform: rotate(12.39deg);
+                    top: -10%;
+                    left: -10px;
+                }
+            }
+        }
+    }
+}

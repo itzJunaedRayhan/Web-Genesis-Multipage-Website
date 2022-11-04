@@ -1,0 +1,57 @@
+.physician-about-section {
+    padding: 60px 0px 0px 0px;
+    .container {
+        max-width: 1350px;
+        margin: 0 auto;
+    }
+    .physician-about-wrapper {
+        width: 100%;
+        margin: 0 auto;
+        .physician-about {
+            max-width: 665px;
+            height: 477px;
+            margin: 55px auto;
+
+            h2 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 42px;
+                text-transform: capitalize;
+                color: #000000;
+                padding-left: 17px;
+            }
+
+            ul {
+                li {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 29px;
+                    text-transform: capitalize;
+                    background: transparent;
+                    color: #6D6E71;
+                    box-shadow: none;
+                    border-radius: 10px;
+                    padding: 23px 20px;
+                    cursor: pointer;
+
+                    &:hover {
+                        background: #fff;
+                        color: #EA1C2D;
+                        box-shadow: rgb(0 0 0 / 5%) 1.95px 1.95px 7.6px;
+                    }
+                }
+            }
+            button {
+                padding: 15px 25px;
+                margin-left: 20px;
+                margin-top: 30px;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
+}

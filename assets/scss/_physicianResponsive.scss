@@ -1,0 +1,166 @@
+@media screen and (min-width: 320px) and (max-width: 1400px) {
+    .resources-banner-wrapper {
+        .resources-banner-title {
+            align-items: flex-start;
+            padding-top: 30px;
+            .physician-title {
+                max-width: 100%;
+                font-size: 20px;
+                line-height: 30px;
+                padding-bottom: 40px;
+
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .physician-about-section {
+        padding: 60px 0px;
+        .container {
+            max-width: 100%;
+        }
+
+        .physician-about-wrapper {
+            .physician-about {
+                max-width: 611px;
+                height: auto;
+                margin: 25px auto;
+    
+                h2 {
+                    font-size: 24px;
+                    line-height: 35px;
+                    margin-bottom: 15px;
+                    padding-left: 10px;
+                }
+    
+                ul {
+                    li {
+                        font-size: 15px;
+                        line-height: 25px;
+                        padding: 13px 10px;
+                    }
+                }
+                button {
+                    margin-left: 10px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    padding: 14px 20px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and (min-width: 450px) and (max-width: 1400px) {
+    .resources-banner-wrapper {
+        .resources-banner-title {
+            .physician-title {
+                max-width: 100%;
+                font-size: 35px !important;
+                line-height: 55px !important;
+                padding-bottom: 30px;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 1400px) {
+    .resources-banner-wrapper {
+        .resources-banner-title {
+            .physician-title {
+                max-width: 550px !important;
+                font-size: 50px !important;
+                line-height: 65px !important;
+                padding-bottom: 30px;
+            }
+        }
+    }
+
+    .physician-about-section {
+        .physician-about-wrapper {
+            .physician-about {
+                max-width: 47%;
+                margin: 25px auto;
+
+                h2 {
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+    .resources-banner-wrapper {
+        .resources-banner-title {
+            .physician-title {
+                max-width: 640px !important;
+                font-size: 56px !important;
+                line-height: 74px !important;
+                padding-bottom: 30px;
+            }
+        }
+    }
+
+    .physician-about-section {
+        .physician-about-wrapper {
+            .physician-about {
+                h2 {
+                    font-size: 26px;
+                    line-height: 45px;
+                    margin-bottom: 15px;
+                }
+    
+                ul {
+                    li {
+                        font-size: 17px;
+                        line-height: 25px;
+                        padding: 13px 10px;
+                    }
+                }
+                button {
+                    padding: 15px 25px;
+                    margin-left: 20px;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .physician-about-section {
+        padding: 70px 0px;
+        .container {
+            max-width: 1200px;
+        }
+
+        .physician-about-wrapper {
+            .physician-about {
+                max-width: 611px;
+                height: auto;
+    
+                h2 {
+                    font-size: 32px;
+                    line-height: 45px;
+                    margin-bottom: 18px;
+                }
+    
+                ul {
+                    li {
+                        font-size: 20px;
+                        line-height: 22px;
+                        padding: 17px 15px;
+                    }
+                }
+            }
+        }
+    }
+}

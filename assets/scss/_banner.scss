@@ -1,0 +1,107 @@
+.banner-section {
+    .banner_wrapper {
+        height: 920px;
+        max-height: auto;
+        position: relative;
+        margin: 75px auto 0px auto;
+        .banner_wrapper-left {
+            max-width: 300px;
+            max-height: 433px;
+            img {
+                max-width: 300px;
+                max-height: 433px;
+            }
+        }
+
+        .banner_wrapper-right {
+            max-width: 300px;
+            max-height: 368px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .banner-content {
+            max-width: 100%;
+            margin: 120px auto 0 30px;
+            padding-left: 25px;
+
+            h1 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 50px;
+                line-height: 60px;
+                text-transform: capitalize;
+                color: #0B0036;
+                padding: 15px 0px 10px 0px;
+            }
+
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 32px;
+                color: #6D6E71;
+                padding: 20px 0px 20px 0px;
+            }
+
+            .primary_button {
+                display: flex;
+                justify-content: center;
+                margin: 20px 0px;
+                max-width: 200px;
+                word-wrap: nowrap;
+            }
+            
+        }
+
+        .banner_bottom {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .banner_wrapper-bottom-left {
+                margin-left: 5%;
+                max-width: 304px;
+                max-height: 355px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .banner_wrapper-bottom-right {
+                max-width: 487px;
+                max-height: 597px;
+                position: absolute;
+                right: 0;
+                bottom: -7%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }             
+    }
+
+    .hero-section {
+        background: #F4F4F4;
+        .hero-text h2{
+            max-height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 40px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #333333;
+            padding: 75px 15px;
+        }
+    }
+}

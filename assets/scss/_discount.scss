@@ -1,0 +1,87 @@
+.discount-section {
+    width: 100%;
+    height: 960px;
+    padding: 30px 0px 100px 0px;
+
+    .healthcare-wrapper {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        .healthcare {
+            h2 {
+                max-width: 490px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 50px;
+                line-height: 60px;
+                text-transform: capitalize;
+                color: #000000;
+                margin-bottom: 50px;
+                margin-left: 30px;
+            }
+        
+            ul {
+                li {
+                    background: transparent;
+                    border-radius: 10px;
+                    padding: 23px 23px 23px 25px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 28px;
+                    line-height: 39px;
+                    text-transform: capitalize;
+                    color: #6D6E71;;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 30px 10px;
+                    transition: all 0.7s ease;
+                    cursor: pointer;
+                    
+                    span {
+                        width: 16px;
+                        height: 9px;
+                        color: #6D6E71;;
+                        display: flex;
+                        align-items: center;
+                        visibility: hidden;
+                        opacity: 0;
+                        transition: all 0.7s ease;
+                    }
+                    &:hover {
+                        background: #FFFFFF;
+                        color:  #333333;
+                        filter: drop-shadow(8px 10px 60px rgba(0, 0, 0, 0.08));
+                        span {
+                            visibility: visible;
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+            button {
+                margin-left: 23px !important;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+
+        .discount-img {
+            max-width: 613px;
+            max-height: 726px;
+    
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    
+
+
+    
+}

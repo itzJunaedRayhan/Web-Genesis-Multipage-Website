@@ -1,0 +1,847 @@
+@media screen and (min-width: 320px) and (max-width: 1400px) {
+    .blog-details-section {
+        padding: 110px 0px;
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        .blog-details-area {
+            margin-right: auto;
+            max-width: 100%;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            .blog-post-items {
+                width: 94%;
+                order: 0;
+                margin-right: 0;
+                margin: 0 auto;
+                .blog-details-wrapper {
+                    article {
+                        width: 100%;
+                        margin: 0 auto;
+                        .postbox_thumb {
+                            width: 100%;
+                            max-height: auto;
+                            border-radius: 20px;
+                            overflow: hidden;
+                            margin: 0 auto;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+    
+                        .postbox__text {
+                            .post-meta {
+                                padding: 38px 0 16px 0;
+                
+                                img {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                                span {
+                                    font-size: 18px;
+                                    line-height: 29px;
+                                }
+                            }
+    
+                            .post-text {
+                                h3 {
+                                    font-size: 20px;
+                                    line-height: 35px;
+                                    margin: 40px 0px 12px 0px;
+                                }
+                
+                                p {
+                                    font-size: 15px;
+                                    line-height: 28px;
+                                    text-align: justify;
+                                }
+                            }
+    
+                            .blog-extra {
+                                flex-wrap: wrap;
+                                margin: 60px 0px 110px 0px;
+                                .blog-post-tag {
+                                    p {
+                                        font-size: 16px;
+                                        line-height: 29px;
+                                    }
+                                }
+        
+                                .social-share {
+                                    ul {
+                                        max-width: 94%;
+                                        li {
+                                            font-size: 16px;
+                                            line-height: 29px;
+                                            a {
+                                                display: block;
+                                                margin: 0 15px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+            
+                        
+                        
+                        
+            
+            
+            
+                        .blog-comment {
+                            p {
+                                font-size: 22px;
+                                line-height: 39px;
+                            }
+            
+                            .comment-one {
+                                @include blogCommentForMobileSize;
+                            }
+            
+                            .comment-two {
+                                @include blogCommentForMobileSize;
+                            }
+                        }
+            
+                        .post-comment-wrapper {
+                            margin-bottom: 110px;
+                            h3 {
+                                font-size: 20px;
+                                line-height: 39px;
+                            }
+                            p {
+                                font-size: 14px;
+                                line-height: 28px;
+                                padding: 16px 0 20px 0;
+                            }
+            
+                            form {
+                                .name-email .username h4,
+                                .name-email .user-email h4,
+                                .website-input h4,
+                                .your-comment h4 {
+                                    font-size: 15px;
+                                    line-height: 22px;
+                                    margin-bottom: 6px;
+                                }
+            
+                                .name-email .username input,
+                                .name-email .user-email input,
+                                .website-input input {
+                                    width: 100%;
+                                    height: 46px;
+                                    border-radius: 8px;
+                                    border: none;
+                                    font-size: 18px;
+                                    padding-left: 15px;
+                                }
+            
+                                .name-email {
+                                    width: 100%;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    justify-content: space-between;
+                                    margin: 16px 0 16px 0;
+                                    .username {
+                                        width: 100%;
+                                        
+                                    }
+                                    .user-email {
+                                        margin-top: 20px;
+                                        width: 100%;
+                                    }
+                                }
+                                .website-input {
+                                    width: 100%;
+                                    margin-top: 20px;
+                                }
+            
+                                .your-comment {
+                                    width: 100%;
+                                    margin-top: 20px;
+            
+                                    textarea {
+                                        width: 100%;
+                                        resize: none;
+                                        height: 130px;
+                                        border-radius: 8px;
+                                    }
+                                }
+                                .save-info {
+                                    width: 100%;
+                                    margin: 16px 0 30px 0;
+                                    display: flex;
+                                    align-items: center;
+                                    span {
+                                        font-size: 14px;
+                                        line-height: 22px;
+                                        margin-left: 8px;
+                                    }
+                                    input {
+                                        width: 20px;
+                                        height: 20px;
+                                    }
+                                }
+                                button {
+                                    max-width: 192px;
+                                    height: 45px;
+                                    padding: 14px 16px;
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                }   
+            }
+    
+            .sidebar-blog {
+                width: 94%;
+                margin: 0 auto;
+                height: auto;
+                order: 1;
+    
+                .search-bar {
+                    width: 100%;
+                    height: 45px;
+                    position: relative;
+                    input {
+                        width: 100%;
+                        height: 100%;
+                        background: #F2F2F2;
+                        border-radius: 10px;
+                        padding-left: 20px;
+                        font-size: 18px;
+                        &::placeholder {
+                            font-size: 18px;
+                            line-height: 22px;
+                        }
+                    }
+                    img {
+                        width: 24px;
+                        height: 24px;
+                        position: absolute;
+                        right: 20px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
+    
+                h3 {
+                    margin: 40px 0 20px 0;
+                }
+    
+                .news-wrapper {
+                    .news {
+                        max-width: 100%;
+                        height: 100px;
+                        margin: 20px 0 20px 0;
+                        border-radius: 10px;
+    
+                        .news-img {
+                            min-width: 75px;
+                            height: 75px;
+                            margin: 8px 18px 8px 8px;
+                            border-radius: 8px;
+                        }
+                        .news-content {
+                            h4 {
+                                font-size: 16px;
+                                line-height: 17px;
+                                margin-bottom: 5px;
+                                padding-right: 10px;
+                            }
+                            p {
+                                font-size: 14px;
+                                line-height: 23px;
+                                padding-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }      
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 1400px) {
+    .blog-details-section {
+        padding: 110px 0px;
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .blog-details-area {
+            max-width: 100%;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            .blog-post-items {
+                max-width: 94%;
+                order: 0;
+                margin-right: 0;
+                margin: 0 auto;
+                .blog-details-wrapper {
+                    article {
+                        width: 100%;
+                        max-width: 600px;
+                        margin: 0 auto;
+    
+                        .postbox_thumb {
+                            width: 100%;
+                            max-height: auto;
+                            border-radius: 20px;
+                            overflow: hidden;
+                            margin: 0 auto;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+    
+                        .postbox__text {
+                            .post-meta {
+                                max-width: 600px;
+                                margin: 0px auto 0px auto;
+                                padding: 38px 0 16px 0;
+                
+                                img {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                                span {
+                                    font-size: 18px;
+                                    line-height: 29px;
+                                }
+                            }
+    
+                            .post-text  {
+                                max-width: 600px;
+                                margin: 0 auto 0px auto;
+                                h3 {
+                                    font-size: 26px;
+                                    line-height: 48px;
+                                    margin: 40px 0px 12px 0px;
+                                }
+                
+                                p {
+                                    font-size: 15px;
+                                    line-height: 28px;
+                                }
+                            }
+    
+                            .blog-extra {
+                                max-width: 600px;
+                                flex-wrap: wrap;
+                                margin: 60px auto 110px auto;
+                                .blog-post-tag {
+                                    p {
+                                        font-size: 16px;
+                                        line-height: 29px;
+                                    }
+                                }
+                                .social-share {
+                                    ul {
+                                        max-width: 94%;
+                                        li {
+                                            font-size: 16px;
+                                            line-height: 29px;
+                                            a {
+                                                display: block;
+                                                margin: 0 15px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    .blog-comment {
+                        max-width: 600px;
+                        margin: 0 auto 70px auto;
+                        p {
+                            font-size: 22px;
+                            line-height: 39px;
+                        }
+        
+                        .comment-one {
+                            @include blogCommentForMobileSize;
+                        }
+        
+                        .comment-two {
+                            @include blogCommentForMobileSize;
+                        }
+                    }
+        
+                    .post-comment-wrapper {
+                        max-width: 600px;
+                        margin: 0 auto;
+                        h3 {
+                            font-size: 20px;
+                            line-height: 39px;
+                        }
+                        p {
+                            font-size: 14px;
+                            line-height: 28px;
+                            padding: 16px 0 20px 0;
+                        }
+        
+                        form {
+                            .name-email .username h4,
+                            .name-email .user-email h4,
+                            .website-input h4,
+                            .your-comment h4 {
+                                font-size: 15px;
+                                line-height: 22px;
+                                margin-bottom: 6px;
+                            }
+        
+                            .name-email .username input,
+                            .name-email .user-email input,
+                            .website-input input {
+                                width: 100%;
+                                height: 46px;
+                                border-radius: 8px;
+                                border: none;
+                                font-size: 18px;
+                                padding-left: 15px;
+                            }
+        
+                            .name-email {
+                                width: 100%;
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: space-between;
+                                margin: 16px 0 16px 0;
+                                .username {
+                                    width: 48%;
+                                    
+                                }
+                                .user-email {
+                                    margin-top: 0px;
+                                    width: 48%;
+                                }
+                            }
+                            .website-input {
+                                width: 100%;
+                                margin-top: 20px;
+                            }
+        
+                            .your-comment {
+                                width: 100%;
+                                margin-top: 20px;
+        
+                                textarea {
+                                    width: 100%;
+                                    resize: none;
+                                    height: 130px;
+                                    border-radius: 8px;
+                                }
+                            }
+                            .save-info {
+                                width: 100%;
+                                margin: 16px 0 30px 0;
+                                display: flex;
+                                align-items: center;
+                                span {
+                                    font-size: 14px;
+                                    line-height: 22px;
+                                    margin-left: 8px;
+                                }
+                                input {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                            button {
+                                max-width: 192px;
+                                height: 45px;
+                                padding: 14px 16px;
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .sidebar-blog {
+                width: 94%;
+                max-width: 600px;
+                margin: 80px auto 0 auto;
+                height: auto;
+                order: 0;
+    
+                .search-bar {
+                    width: 100%;
+                    height: 45px;
+                    position: relative;
+                    input {
+                        width: 100%;
+                        height: 100%;
+                        background: #F2F2F2;
+                        border-radius: 10px;
+                        padding-left: 20px;
+                        font-size: 18px;
+                        &::placeholder {
+                            font-size: 18px;
+                            line-height: 22px;
+                        }
+                    }
+                    img {
+                        width: 24px;
+                        height: 24px;
+                        position: absolute;
+                        right: 20px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
+    
+                h3 {
+                    margin: 40px 0 20px 0;
+                }
+    
+                .news-wrapper {
+                    .news {
+                        max-width: 100%;
+                        height: 120px;
+                        margin: 20px 0 20px 0;
+                        border-radius: 10px;
+    
+                        .news-img {
+                            min-width: 108px;
+                            height: 103px;
+                            margin: 8px 18px 8px 8px;
+                            border-radius: 8px;
+                        }
+                        .news-content {
+                            h4 {
+                                font-size: 14px;
+                                line-height: 17px;
+                                margin-bottom: 5px;
+                                padding-right: 10px;
+                            }
+                            p {
+                                font-size: 17px;
+                                line-height: 23px;
+                                padding-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }  
+        }     
+    }   
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+    .blog-details-section {
+        padding: 110px 0px 110px 0px;
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+        .blog-details-area {
+            max-width: 100%;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            align-items: flex-start;
+            margin: 0 auto 0px auto;
+            position: relative;
+            .blog-post-items {
+                margin: 0 auto;
+                .blog-details-wrapper {
+                    article {
+                        width: 94%;
+                        max-width: 600px;
+                        order: 0;
+                        margin: 0 auto;
+        
+            
+                        .postbox_thumb {
+                            width: 100%;
+                            max-height: auto;
+                            border-radius: 20px;
+                            overflow: hidden;
+                            margin: 0 auto;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+    
+                        .postbox__text {
+                            .post-meta {
+                                max-width: 600px;
+                                margin: 0px auto 0px auto;
+                                padding: 38px 0 16px 0;
+                
+                                img {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                                span {
+                                    font-size: 18px;
+                                    line-height: 29px;
+                                }
+                            }
+    
+                            .post-text { 
+                                max-width: 600px;
+                                margin: 0 auto 0px auto;
+                                h3 {
+                                    font-size: 26px;
+                                    line-height: 48px;
+                                    margin: 40px 0px 12px 0px;
+                                }
+                
+                                p {
+                                    font-size: 15px;
+                                    line-height: 28px;
+                                }
+                            }
+    
+                            .blog-extra {
+                                max-width: 600px;
+                                flex-wrap: wrap;
+                                margin: 60px auto 110px auto;
+    
+                                .blog-post-tag {
+                                    p {
+                                        font-size: 16px;
+                                        line-height: 29px;
+                                    }
+                                }
+    
+                                .social-share {
+                                    ul {
+                                        max-width: 94%;
+                                        li {
+                                            font-size: 16px;
+                                            line-height: 29px;
+                                            a {
+                                                display: block;
+                                                margin: 0 15px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    .blog-comment {
+                        max-width: 450px;
+                        margin: 0 auto 70px auto;
+                        position: absolute;
+                        right: 2%;
+                        top: 41%;
+                        p {
+                            font-size: 22px;
+                            line-height: 39px;
+                        }
+        
+                        .comment-one {
+                            @include blogCommentForMobileSize;
+                        }
+        
+                        .comment-two {
+                            @include blogCommentForMobileSize;
+                        }
+                    }
+        
+                    .post-comment-wrapper {
+                        max-width: 100%;
+                        margin: 0;
+                        h3 {
+                            font-size: 20px;
+                            line-height: 39px;
+                        }
+                        p {
+                            font-size: 14px;
+                            line-height: 28px;
+                            padding: 16px 0 20px 0;
+                        }
+        
+                        form {
+                            .name-email .username h4,
+                            .name-email .user-email h4,
+                            .website-input h4,
+                            .your-comment h4 {
+                                font-size: 15px;
+                                line-height: 22px;
+                                margin-bottom: 6px;
+                            }
+        
+                            .name-email .username input,
+                            .name-email .user-email input,
+                            .website-input input {
+                                width: 100%;
+                                height: 46px;
+                                border-radius: 8px;
+                                border: none;
+                                font-size: 18px;
+                                padding-left: 15px;
+                            }
+        
+                            .name-email {
+                                width: 100%;
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: space-between;
+                                margin: 16px 0 16px 0;
+                                .username {
+                                    width: 48%;
+                                    
+                                }
+                                .user-email {
+                                    margin-top: 0px;
+                                    width: 48%;
+                                }
+                            }
+                            .website-input {
+                                width: 100%;
+                                margin-top: 20px;
+                            }
+        
+                            .your-comment {
+                                width: 100%;
+                                margin-top: 20px;
+        
+                                textarea {
+                                    width: 100%;
+                                    resize: none;
+                                    height: 130px;
+                                    border-radius: 8px;
+                                }
+                            }
+                            .save-info {
+                                width: 100%;
+                                margin: 16px 0 30px 0;
+                                display: flex;
+                                align-items: center;
+                                span {
+                                    font-size: 14px;
+                                    line-height: 22px;
+                                    margin-left: 8px;
+                                }
+                                input {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            }
+                            button {
+                                max-width: 192px;
+                                height: 45px;
+                                padding: 14px 16px;
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+            .sidebar-blog {
+                width: 94%;
+                max-width: 600px;
+                margin: 0 auto;
+                height: auto;
+                order: 1;
+    
+                .search-bar {
+                    width: 100%;
+                    height: 45px;
+                    position: relative;
+                    input {
+                        width: 100%;
+                        height: 100%;
+                        background: #F2F2F2;
+                        border-radius: 10px;
+                        padding-left: 20px;
+                        font-size: 18px;
+                        &::placeholder {
+                            font-size: 18px;
+                            line-height: 22px;
+                        }
+                    }
+                    img {
+                        width: 24px;
+                        height: 24px;
+                        position: absolute;
+                        right: 20px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
+    
+                h3 {
+                    margin: 40px 0 20px 0;
+                }
+    
+                .news-wrapper {
+                    .news {
+                        max-width: 100%;
+                        height: 120px;
+                        margin: 20px 0 20px 0;
+                        border-radius: 10px;
+    
+                        .news-img {
+                            min-width: 108px;
+                            height: 103px;
+                            margin: 8px 18px 8px 8px;
+                            border-radius: 8px;
+                        }
+                        .news-content {
+                            h4 {
+                                font-size: 14px;
+                                line-height: 17px;
+                                margin-bottom: 5px;
+                                padding-right: 10px;
+                            }
+                            p {
+                                font-size: 17px;
+                                line-height: 23px;
+                                padding-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .blog-details-section {
+        .blog-details-area {
+            .blog-post-items {
+                .blog-details-wrapper {
+                    .blog-comment {
+                        max-width: 550px;
+                        margin: 0 auto 70px auto;
+                        position: absolute;
+                        right: 3%;
+                        top: 41%;
+                    }
+                }
+            }
+        }
+    }
+}

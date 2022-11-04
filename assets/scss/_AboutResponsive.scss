@@ -1,0 +1,685 @@
+@media screen and (min-width: 320px) and (max-width: 1400px) {
+    .about-banner-section {
+        width: 100%;
+        height: 438px;
+        background-image: url('../../images/Inner/About/About-Banner.png');
+        .about-banner-wrapper {
+            h1 {
+                max-width: 100%;
+                margin: 0 auto;
+                font-size: 40px;
+                line-height: 50px;
+                text-align: center;
+            }
+        }
+    }
+
+
+    .about-service-section {
+        padding: 60px 0px;
+    
+        .about-service-wrapper {
+            padding: 15px;
+            .about-service-text {
+                h2 {
+                    font-size: 28px;
+                    line-height: 38px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                    padding: 0 25px;
+                }
+    
+                p {
+                    font-size: 14px;
+                    line-height: 25px;
+                    padding: 17px;
+                    text-align: center;
+                }
+            }
+    
+            .about-service-img {
+                max-width: 80%;
+                margin: 0px auto;
+                position: relative;
+    
+                .bottom-img {
+                    max-width: 100%;
+                    margin: 0 auto;
+                }
+    
+                .top-img {
+                    max-width: 170px;
+                    max-height: 170px;
+                    position: absolute;
+                    right: -8%;
+                    bottom: -20%;
+                }
+            }
+    
+            .about-service-two {
+                padding-top: 150px;
+                padding-bottom: 60px;
+                max-width: 90%;
+                max-height: 850px;
+                position: relative;
+                margin: 0px auto 0 auto;
+    
+                img {
+                    max-width: 100%;
+                    max-height: 540px;
+                }
+    
+                .about-two-text {
+                    max-width: 100%;
+                    max-height: 460px;
+                    position: relative;
+                    bottom: 0%;
+                    right: 0%;
+                    border-radius: 20px;
+                    margin-top: 60px;
+                    padding: 15px;
+                    text-align: justify;
+                    &::before {
+                        width: 290px;
+                        height: 290px;
+                        left: -135px;
+                        top: -135px;
+                    }
+    
+                    h2 {
+                        font-size: 26px;
+                        line-height: 36px;
+                        text-align: center;
+                        padding: 5px 10px 7px 10px
+                    }
+    
+                    p {
+                        font-size: 14px;
+                        line-height: 30px;
+                        padding: 0 10px 10px 10px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .about-team-section {
+        h2 {
+            font-size: 25px;
+            line-height: 36px;
+            padding: 70px 0px 30px 0px;
+        }
+    
+        .about-team-wrapper {
+            max-width: 100%;
+            margin: 0 auto;
+            justify-content: center;
+            .about-team {
+                width: 140px;
+                height: 140px;
+                border-radius: 50%;
+                margin: auto;
+                img {
+                    width: 160px;
+                    height: 160px;
+                    border-radius: 50%;
+                    margin-left: -17px;
+                }
+    
+                .about-team-content {
+                    width: 120%;
+                    height: 120%;
+                    h3 {
+                        font-size: 12px;
+                        line-height: 22px;
+                    }
+    
+                    p {
+                        max-width: 100%;
+                        font-size: 8px;
+                        line-height: 15px;
+                        margin: 5px 25px;
+                    }
+    
+                    a {
+                        font-size: 8px;
+                        line-height: 12px;
+                        color: #EA1C2D;
+                        padding: 6px 10px;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    
+    
+        //  Ambassador-wrapper:
+        .ambassador-wrapper {
+            max-width: 100%;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            .ambassador {
+                width: 140px;
+                height: 140px;
+                margin: 20px auto;
+                img {
+                    width: 160px;
+                    height: 160px;
+                    margin-left: -17px;
+                }
+    
+                .ambassador-content {
+                    width: 120%;
+                    height: 120%;
+                    width: 120%;
+                    height: 120%;
+                    h3 {
+                        font-size: 12px;
+                        line-height: 23px;
+                    }
+    
+                    p {
+                        max-width: 100%;
+                        font-size: 8px;
+                        line-height: 15px;
+                        margin: 5px 25px;
+                    }
+    
+                    a {
+                        font-size: 8px;
+                        line-height: 12px;
+                        color: #EA1C2D;
+                        padding: 6px 10px;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 1400px) {
+    .about-banner-section {
+        .about-banner-wrapper {
+            h1 {
+                font-size: 45px;
+                line-height: 60px;
+            }
+        }
+    }
+
+    .about-service-section {
+        padding: 110px 0px;
+        .about-service-wrapper {
+            .about-service-text {
+                h2 {
+                    font-size: 32px;
+                    line-height: 52px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+    
+                p {
+                    font-size: 16px;
+                    line-height: 30px;
+                }
+            }
+            .about-service-img {
+                max-width: 80%;
+                margin: 35px auto;
+                .top-img {
+                    max-width: 250px;
+                    max-height: 250px;
+                    position: absolute;
+                    right: -9%;
+                    bottom: -13%;
+                }
+            }
+    
+            .about-service-two {
+                padding-top: 130px;
+                padding-bottom: 100px;
+                max-width: 90%;
+                max-height: 850px;
+                position: relative;
+    
+                img {
+                    max-width: 65%;
+                    max-height: 540px;
+                }
+    
+                .about-two-text {
+                    max-width: 70%;
+                    max-height: auto;
+                    position: absolute;
+                    bottom: -20%;
+                    right: 0%;
+                    &::before {
+                        width: 190px;
+                        height: 190px;
+                        left: -65px;
+                        top: -65px;
+                    }
+                    h2 {
+                        font-size: 20px;
+                        line-height: 30px;
+                        padding: 15px 10px 10px 10px;
+                    }
+    
+                    p {
+                        font-size: 14px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    .about-team-section {
+        h2 {
+            font-size: 32px;
+            line-height: 52px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+   .about-service-section {
+    .container {
+        max-width: 1330px;
+        margin: 0 auto;
+        padding: 0px;
+
+        .row {
+            padding: 0px !important;
+            --bs-gutter-x: 0 !important;
+            --bs-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0px !important;
+        }
+    }
+
+    .about-service-wrapper {
+        .about-service-img {
+            .top-img {
+                max-width: 220px !important;
+                max-height: 220px !important;
+                position: absolute;
+                right: 0% !important;
+                bottom: -3%;
+            }
+            .bottom-img {
+                max-width: 80% !important;
+                margin: 0 auto;
+            }
+        } 
+        .about-service-two {
+            .about-two-text {
+                top: 40%;
+                right: 0;
+                max-height: 350px;
+
+                p {
+                    font-size: 17px;
+                }
+
+                h2 {
+                    font-size: 26px;
+                    line-height: 30px;
+                    padding: 15px 10px 20px 10px;
+                }
+            }
+        }
+    } 
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+    .about-banner-section {
+        .about-banner-wrapper {
+            h1 {
+                max-width: 500px;
+                margin: 0 auto;
+                font-size: 50px;
+                line-height: 65px;
+            }
+        }
+    }
+
+
+    .about-service-section {
+        padding: 60px 0px;
+        margin-bottom: 60px;
+        .about-service-wrapper {
+            .about-service-text {
+                h2 {
+                    font-size: 40px;
+                    line-height: 55px;
+                    margin-bottom: 20px;
+                }
+    
+                p {
+                    font-size: 16px;
+                    line-height: 30px;
+                }
+            }
+            .about-service-img {
+                max-width: 80%;
+                .bottom-img {
+                    max-width: 80%;
+                }
+                .top-img {
+                    max-width: 200px;
+                    max-height: 200px;
+                    position: absolute;
+                    right: 0%;
+                    bottom: -13%;
+                }
+            }
+    
+            .about-service-two {
+                img {
+                    max-width: 50%;
+                    max-height: 440px;
+                }
+    
+                .about-two-text {
+                    max-width: 65%;
+                    bottom: -10%;
+                    right: 0%;
+                    padding: 20px;
+                    &::before {
+                        width: 260px;
+                        height: 260px;
+                        left: -125px;
+                        top: -125px;
+                    }
+                    h2 {
+                        font-size: 40px;
+                        line-height: 55px;
+                        padding: 15px 10px 10px 10px;
+                    }
+    
+                    p {
+                        font-size: 18px;
+                        line-height: 36px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .about-team-section {
+        h2 {
+            font-size: 40px;
+            line-height: 55px;
+            padding: 70px 0px 30px 0px;
+        }
+    
+        .about-team-wrapper {
+            max-width: 100%;
+            margin: 0 auto;
+            justify-content: center;
+            .about-team {
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                margin: auto;
+                img {
+                    width: 320px;
+                    height: 320px;
+                    border-radius: 50%;
+                    margin-left: -17px;
+                }
+    
+                .about-team-content {
+                    h3 {
+                        font-size: 22px;
+                        line-height: 20px;
+                    }
+    
+                    p {
+                        max-width: 100%;
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin: 15px 35px;
+                    }
+    
+                    a {
+                        font-size: 14px;
+                        line-height: 12px;
+                        color: #EA1C2D;
+                        padding: 12px 17px;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    
+    
+        //  Ambassador-wrapper:
+        .ambassador-wrapper {
+            max-width: 100%;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            .ambassador {
+                width: 300px;
+                height: 300px;
+                margin: 20px auto;
+                img {
+                    width: 320px;
+                    height: 320px;
+                    margin-left: -20px;
+                }
+    
+                .ambassador-content {
+                    h3 {
+                        font-size: 22px;
+                        line-height: 20px;
+                    }
+    
+                    p {
+                        max-width: 100%;
+                        font-size: 16px;
+                        line-height: 20px;
+                        margin: 15px 35px;
+                    }
+    
+                    a {
+                        font-size: 14px;
+                        line-height: 12px;
+                        padding: 12px 17px;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .about-team-section {
+        h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 56px;
+            line-height: 74px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #0B0036;
+            padding: 110px 0px;
+        }
+    
+        .about-team-wrapper {
+            max-width: 845px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .about-team {
+                width: 330px;
+                height: 330px;
+                border-radius: 50%;
+                position: relative; 
+                overflow: hidden;
+                img {
+                    width: 340px;
+                    height: 340px;
+                    margin-left: -15px;
+                }
+    
+                .about-team-content {
+                    width: 120%;
+                    height: 120%;
+                    background: rgba(225, 0, 19, 0.7);
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    visibility: hidden;
+                    opacity: 0;
+                    cursor: pointer;
+                    transition: all 1s ease;
+                    h3 {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 32px;
+                        line-height: 39px;
+                        text-transform: capitalize;
+                        color: #FFFFFF;
+                    }
+    
+                    p {
+                        color: #fff;
+                        max-width: 202px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        text-transform: capitalize;
+                        margin: 5px 25px;
+                    }
+    
+                    a {
+                        background-color: #fff;
+                        display: block;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        text-transform: capitalize;
+                        color: #EA1C2D;
+                        padding: 10px 15px;
+                        border-radius: 5px;
+                    }
+                }
+                &:hover {
+                    .about-team-content {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    
+    
+        //  Ambassador-wrapper:
+        .ambassador-wrapper {
+            max-width: 1270px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .ambassador {
+                width: 330px;
+                height: 330px;
+                border-radius: 50%;
+                position: relative; 
+                overflow: hidden;
+                margin-bottom: 100px;
+                img {
+                    width: 340px;
+                    height: 340px;
+                    margin-left: -15px;
+                }
+    
+                .ambassador-content {
+                    width: 120%;
+                    height: 120%;
+                    background: rgba(225, 0, 19, 0.7);
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    visibility: hidden;
+                    opacity: 0;
+                    cursor: pointer;
+                    transition: all 1s ease;
+                    h3 {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 32px;
+                        line-height: 39px;
+                        text-transform: capitalize;
+                        color: #FFFFFF;
+                    }
+    
+                    p {
+                        color: #fff;
+                        max-width: 202px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        text-transform: capitalize;
+                        margin: 5px 25px;
+                    }
+    
+                    a {
+                        background-color: #fff;
+                        display: block;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 19px;
+                        text-transform: capitalize;
+                        color: #EA1C2D;
+                        padding: 10px 15px;
+                        border-radius: 5px;
+                    }
+                }
+                &:hover {
+                    .ambassador-content {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+}

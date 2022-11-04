@@ -1,0 +1,262 @@
+.events-section {
+    .container {
+        max-width: 1330px;
+        margin: 0 auto;
+        padding: 0px;
+
+        .row {
+            margin: 0px;
+        }
+    }
+
+    .active::after {
+        content: "";
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #EA1C2D;;
+        position: absolute;
+        right: 15px;
+        top: 0px;
+    }
+
+    .calendar-wrapper {
+        margin: 110px 40px 110px auto;
+
+        .calendar {
+            font-family: 'Inter';
+            position: relative;
+            max-width: 580px;
+            max-height: 675px;
+            background: #FFF;
+            color: #CCCCCC;
+            margin: 20px 0px;
+            padding-bottom: 50px;
+            box-sizing: border-box;
+            overflow: hidden;
+            font-weight: normal;
+            border-radius: 30px;
+            filter: drop-shadow(8px 10px 60px rgba(0, 0, 0, 0.08));
+
+            .calendar-inner {
+                padding: 0px 20px;
+
+                .calendar-body {
+                    display: grid;
+                    grid-template-columns: repeat(7, 1fr);
+                    text-align: center;
+
+                    div {
+                        padding: 8px;
+                        min-height: 30px;
+                        line-height: 30px;
+                        margin: 15px 0px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 30px;
+                        line-height: 41px;
+                        text-align: center;
+                        color: #121212;
+                        position: relative;
+                    }
+
+                    div>span {
+                        display: flex;
+                        justify-content: center;
+                        cursor: pointer;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 30px;
+                        line-height: 41px;
+                        text-align: center;
+                        color: #858585;
+                        border: 1px solid transparent;
+                    }
+
+                    .calendar-today {
+                        background: #EA1C2D;
+                        border-radius: 8px;
+
+                        span {
+                            color: #fff;
+                        }
+                    }
+                }
+
+                .calendar-today-date {
+                    display: none;
+                }
+
+                .calendar-controls {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    padding: 40px 0px 15px 0px;
+                    justify-content: space-between;
+
+                    .calendar-year-month {
+                        display: flex;
+                        min-width: 100px;
+                        justify-content: space-evenly;
+                        align-items: center;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 36px;
+                        line-height: 46px;
+                        color: #121212;
+
+                        .calendar-year-label,
+                        .calendar-month-label {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 36px;
+                            line-height: 46px;
+                            color: #121212;
+                        }
+                    }
+
+                    .calendar-control-buttons {
+                        display: flex;
+                        margin-left: auto;
+
+                        .calendar-next span,
+                        .calendar-prev span {
+                            color: #121212;
+                            font-family: 'Inter';
+                            font-size: 30px;
+                            line-height: 40px;
+                            padding: 4px 25px;
+                            display: inline-block;
+                            margin: 10px 0 10px 0;
+                            background: transparent;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .event-wrapper {
+        max-width: 572px;
+        margin: 110px 0px 110px 30px;
+
+        .events-title {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+
+            h3 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 39px;
+                color: #000000;
+            }
+
+            a {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 29px;
+                text-transform: capitalize;
+                color: #6D6E71;
+            }
+        }
+
+        .event-list {
+            width: 100%;
+            height: 135px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 28px 32px;
+            background: transparent;
+            margin: 30px 0px;
+            border: 1px solid #CCCCCC;
+            border-radius: 16px;
+
+            .event-left {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                h4 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 32px;
+                    line-height: 39px;
+                    color: #000000;
+                    margin-bottom: 12px;
+                }
+
+                p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 29px;
+                    text-transform: capitalize;
+                    color: #6D6E71;
+                }
+
+                i {
+                    color: #6D6E71;
+                    margin-right: 8px;
+                }
+            }
+
+            .event-right {
+                input {
+                    display: none;
+                    cursor: pointer;
+                }
+
+                label {
+                    width: 38px;
+                    height: 38px;
+                    -webkit-appearance: none;
+                    background-color: transparent;
+                    border: 1px solid #6D6E71;
+                    ;
+                    padding: 8px;
+                    border-radius: 50px;
+                    display: inline-block;
+                    position: relative;
+                    vertical-align: middle;
+                    cursor: pointer;
+                }
+
+                input:checked+label {
+                    background-color: transparent;
+                    border: 1px solid transparent;
+                }
+
+                input:checked+label:after {
+                    content: '';
+                    width: 38px;
+                    height: 38px;
+                    border-radius: 50px;
+                    position: absolute;
+                    top: -50%;
+                    left: -50%;
+                    transform: translate(17px, 17px);
+                    background: #EA1C2D;
+                    ;
+                    text-shadow: none;
+                    font-size: 38px;
+                }
+
+            }
+        }
+    }
+}

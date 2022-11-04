@@ -1,0 +1,387 @@
+@media screen and (min-width: 320px) and (max-width: 575px) {
+    .events-section {
+        .container {
+            max-width: 100%;
+            padding: 15px;
+        }
+
+        .active::after {
+            width: 5px;
+            height: 5px;
+            right: 8px;
+            top: 5px;
+        }
+
+        .calendar-wrapper {
+            margin: 110px 30px 50px auto;
+
+            .calendar {
+                margin: 20px 0px;
+                padding-bottom: 30px;
+                border-radius: 10px;
+
+                .calendar-inner {
+                    padding: 0px 8px;
+
+                    .calendar-body {
+                        display: grid;
+                        grid-template-columns: repeat(7, 1fr);
+                        text-align: center;
+
+                        div {
+                            padding: 0px;
+                            min-height: 15px;
+                            margin: 0px 0px;
+                            font-size: 13px;
+                            line-height: 27px;
+                        }
+
+                        div>span {
+                            font-size: 16px;
+                            line-height: 26px;
+                            text-align: center;
+                        }
+
+                        .calendar-today {
+                            border-radius: 8px;
+                        }
+                    }
+
+                    .calendar-today-date {
+                        display: none;
+                    }
+
+                    .calendar-controls {
+                        padding: 10px 0px 3px 0px;
+
+                        .calendar-year-month {
+                            font-size: 20px;
+                            line-height: 30px;
+
+                            .calendar-year-label,
+                            .calendar-month-label {
+                                font-size: 20px;
+                                line-height: 30px;
+                            }
+                        }
+
+                        .calendar-control-buttons {
+
+                            .calendar-next span,
+                            .calendar-prev span {
+                                font-size: 20px;
+                                line-height: 30px;
+                                padding: 4px 20px;
+                                margin: 5px 0 10px 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .event-wrapper {
+            max-width: 100%;
+            margin: 0px 0px 110px 0px;
+
+            .events-title {
+                width: 100%;
+                margin-bottom: 10px;
+
+                h3 {
+                    font-size: 17px;
+                    line-height: 28px;
+                    margin: 15px 0px;
+                }
+
+                a {
+                    font-size: 17px;
+                    line-height: 28px;
+                    margin: 15px 0px;
+                }
+            }
+
+            .event-list {
+                width: 100%;
+                height: 80px;
+                padding: 12px 10px;
+                margin: 20px 0px;
+                border-radius: 8px;
+
+                .event-left {
+                    h4 {
+                        font-size: 17px;
+                        line-height: 28px;
+                        margin-bottom: 12px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        line-height: 25px;
+                    }
+                }
+
+                .event-right {
+                    label {
+                        width: 30px;
+                        height: 30px;
+                        padding: 8px;
+                        border-radius: 50px;
+                    }
+
+                    input:checked+label:after {
+                        content: '';
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50px;
+                        top: -50%;
+                        left: -50%;
+                        transform: translate(12px, 17px);
+                        font-size: 38px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 1400px) {
+    .events-section .calendar-wrapper {
+        max-width: 85%;
+        margin: 80px auto 0 auto;
+
+        .calendar {
+            padding-bottom: 25px;
+            border-radius: 12px;
+
+            .calendar-inner {
+                padding: 0px 10px;
+
+                .calendar-body div {
+                    font-size: 24px;
+                    line-height: 40px;
+                    margin: 10px 0px;
+                }
+
+                .calendar-body div>span {
+                    font-size: 24px;
+                    line-height: 41px;
+                }
+            }
+        }
+    }
+
+    .events-section .event-wrapper {
+        max-width: 85%;
+        margin: 110px auto 110px auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+    .events-section {
+        .container {
+            max-width: 100%;
+            padding: 15px;
+        }
+
+        .active::after {
+            width: 5px;
+            height: 5px;
+            right: 8px;
+            top: 5px;
+        }
+
+        .calendar-wrapper {
+            max-width: 50%;
+            margin: 110px 30px 110px auto;
+
+            .calendar {
+                margin: 20px 0px;
+                padding-bottom: 30px;
+                border-radius: 10px;
+
+                .calendar-inner {
+                    padding: 0px 8px;
+
+                    .calendar-body {
+                        display: grid;
+                        grid-template-columns: repeat(7, 1fr);
+                        text-align: center;
+
+                        div {
+                            padding: 0px;
+                            min-height: 15px;
+                            margin: 10px 0px;
+                            font-size: 13px;
+                            line-height: 28px;
+                        }
+
+                        div>span {
+                            font-size: 16px;
+                            line-height: 35px;
+                            text-align: center;
+                        }
+
+                        .calendar-today {
+                            border-radius: 8px;
+                        }
+                    }
+
+                    .calendar-today-date {
+                        display: none;
+                    }
+
+                    .calendar-controls {
+                        padding: 10px 0px 3px 0px;
+
+                        .calendar-year-month {
+                            font-size: 20px;
+                            line-height: 35px;
+
+                            .calendar-year-label,
+                            .calendar-month-label {
+                                font-size: 20px;
+                                line-height: 35px;
+                            }
+                        }
+
+                        .calendar-control-buttons {
+
+                            .calendar-next span,
+                            .calendar-prev span {
+                                font-size: 20px;
+                                padding: 4px 20px;
+                                margin: 5px 0 10px 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .event-wrapper {
+            max-width: 45%;
+            margin: 110px 0px 110px 0px;
+
+            .events-title {
+                width: 100%;
+                margin-bottom: 10px;
+
+                h3 {
+                    font-size: 17px;
+                    line-height: 30px;
+                    margin: 15px 0px;
+                }
+
+                a {
+                    font-size: 17px;
+                    line-height: 30px;
+                }
+            }
+
+            .event-list {
+                width: 100%;
+                height: 80px;
+                padding: 12px 10px;
+                margin: 20px 0px;
+                border-radius: 8px;
+
+                .event-left {
+                    padding-left: 10px;
+
+                    h4 {
+                        font-size: 17px;
+                        line-height: 30px;
+                        margin-bottom: 12px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        line-height: 25px;
+                    }
+                }
+
+                .event-right {
+
+                    label {
+                        width: 30px;
+                        height: 30px;
+                        padding: 8px;
+                        border-radius: 50px;
+                    }
+
+
+                    input:checked+label:after {
+                        content: '';
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50px;
+                        top: -50%;
+                        left: -50%;
+                        transform: translate(10px, 14px);
+                        font-size: 38px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+    .events-section {
+        .calendar-wrapper .calendar .calendar-inner {
+            .calendar-body div {
+                padding: 0px;
+                min-height: 15px;
+                margin: 20px 0px;
+                font-size: 20px;
+                line-height: 35px;
+            }
+
+            .calendar-body div>span {
+                font-size: 22px;
+                line-height: 35px;
+                text-align: center;
+            }
+
+            .calendar-controls .calendar-year-month {
+                font-size: 35px;
+                line-height: 35px;
+            }
+        }
+
+        .event-wrapper {
+            width: 100%;
+            margin-bottom: 10px;
+
+            h3 {
+                font-size: 20px;
+                line-height: 35px;
+                margin: 15px 0px;
+            }
+
+            a {
+                font-size: 20px;
+                line-height: 30px;
+                margin: 15px 0px;
+            }
+
+
+            .event-list {
+                .event-left {
+                    h4 {
+                        font-size: 20px;
+                        line-height: 35px;
+                        margin-bottom: 12px;
+                    }
+
+                    p {
+                        font-size: 18px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

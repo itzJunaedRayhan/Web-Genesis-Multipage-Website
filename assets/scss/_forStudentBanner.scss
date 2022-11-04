@@ -1,0 +1,145 @@
+.for-student-banner-section,
+.have-question-section,
+.for-student-service-section,
+.pricing-section {
+    .row {
+        --bs-gutter-x: 0rem !important;
+    }
+}
+
+.for-student-banner-section {
+    max-width: 100%;
+    max-height: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto 277px auto;
+
+    .student-banner-wrapper {
+        height: auto;
+        margin: 0 auto;
+        padding: 0px;
+
+        .student-banner-top {
+            width: 100%;
+            min-height: 510;
+            margin: 0 auto;
+
+            .student-banner_wrapper-left {
+                width: 300px;
+                height: 400px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .student-banner_wrapper-right {
+                width: 300px;
+                height: 500px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .banner-content {
+                max-width: 550px;
+                margin: auto;
+                padding: 0px;
+
+                h1 {
+                    margin-top: 10px;
+                    text-align: center;
+                    position: relative;
+
+                    .vectorIcon {
+                        display: none;
+                    }
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 26px;
+                    padding-top: 25px;
+                    text-align: center;
+                }
+            }
+        }
+
+
+
+        .student_banner-bottom {
+            width: 100%;
+            min-height: 600px;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0px auto 0px auto;
+
+            .banner_bottom-img {
+                width: 580px;
+                height: 484px;
+
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+
+            h2 {
+                max-width: 511px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 50px;
+                line-height: 60px;
+                text-transform: capitalize;
+                color: #000000;
+                margin: 0 auto;
+            }
+
+            .banner_award {
+                display: flex;
+                justify-content: center;
+                position: absolute;
+                left: 5%;
+                bottom: -17%;
+
+                .award {
+                    background-color: #fff;
+                    width: 300px;
+                    height: 225px;
+                    border-radius: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    box-shadow: 0px 8px 50px rgba(0, 0, 0, 0.08);
+                    img {
+                        width: 70px;
+                        height: 60px;
+                    }
+
+                    h4 {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        text-align: center;
+                        text-transform: capitalize;
+                        color: #6D6E71;
+                        padding: 15px 25px;
+                    }
+
+                    &:nth-child(2) {
+                        margin: 0px 40px;
+                    }
+                }
+            }
+        }
+    }
+}

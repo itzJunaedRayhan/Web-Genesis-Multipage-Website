@@ -1,0 +1,105 @@
+.about-service-section {
+    padding: 100px 0px;
+    .container {
+        max-width: 1330px;
+        margin: 0 auto;
+        padding: 0px;
+
+        .row {
+            padding: 0px !important;
+            --bs-gutter-x: 0 !important;
+            --bs-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0px !important;
+        }
+    }
+
+    .about-service-wrapper {
+        .about-service-text {
+            max-width: 588px;
+            margin: 0 auto;
+            h2 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 50px;
+                line-height: 60px;
+                text-transform: capitalize;
+                color: #000000;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #6D6E71;
+            }
+        }
+
+        .about-service-img {
+            max-width: 100%;
+            position: relative;
+
+            .bottom-img {
+                max-width: 450px;
+                margin-left: 100px;
+            }
+
+            .top-img {
+                position: absolute;
+                right: 0%;
+                bottom: -30%;
+            }
+        }
+
+
+        .about-service-two {
+            padding-top: 110px;
+            max-width: 1300px;
+            max-height: 620px;
+            position: relative;
+
+            img {
+                max-width: 716px;
+                max-height: 540px;
+            }
+
+            .about-two-text {
+                max-width: 706px;
+                max-height: 430px;
+                position: absolute;
+                bottom: -20%;
+                right: -3%;
+                background: #FFFFFF;
+                border-radius: 20px;
+                overflow: hidden;
+                filter: drop-shadow(8px 10px 60px rgba(0, 0, 0, 0.08));
+
+                h2 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 50px;
+                    line-height: 60px;
+                    text-transform: capitalize;
+                    color: #000000;
+                    padding: 30px 50px 20px 50px;
+                }
+
+                p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #6D6E71;
+                    padding: 0 50px 50px 50px;
+                }
+            }
+        }
+    }
+}

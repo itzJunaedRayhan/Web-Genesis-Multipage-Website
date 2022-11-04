@@ -1,0 +1,34 @@
+.step-section {
+    .step-heading {
+        @include title;  
+        margin: 110px auto 65px auto;
+    }
+
+    .step-wrapper {
+        width: 80%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0px;
+        
+        .step-one {
+            .step-img {
+                background: rgba(234, 28, 45, 0.1);
+            }
+        }
+
+        .step-two {
+            .step-img {
+                background: rgba(143, 0, 255, 0.1);
+            }
+        }
+
+        .step-three {
+            .step-img {
+                background: rgba(255, 3, 200, 0.1);
+            }
+        }
+    }
+}

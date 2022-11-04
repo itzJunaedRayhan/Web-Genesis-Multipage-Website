@@ -1,0 +1,116 @@
+.partner-banner-section {
+    .container {
+        max-width: 1340px;
+        margin: 0 auto;
+    }
+    .partner-banner-top {
+        display: flex;
+        align-items: center;
+        margin: 30px 0px 120px 0px;
+        .partner-banner-text-one {
+            margin-right:0 auto;
+            h1 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 50px;
+                line-height: 60px;
+                text-transform: capitalize;
+                color: #181818;
+                margin-bottom: 40px;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    display: block;
+                    width: 120px;
+                    height: 122px;
+                    position: absolute;
+                    left: -5%;
+                    top: -12%;
+                    background: rgba(234, 28, 45, 0.1);
+                    border-radius: 250px 250px 0px 250px;
+                }
+            }
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                color: #6D6E71;
+            }
+        }
+
+        .partner-banner-img-one {
+            max-width: 520px;
+            max-height: 780px;
+            margin-left: auto;
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+    }
+    .partner-banner-middle {
+        display: flex;
+        justify-content: space-between;
+        .partner-banner-img-two {
+            max-width: 666px;
+            max-height: 622px;
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+
+        .partner-banner-text-two {
+            max-width: 540px;
+            h2 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 50px;
+                line-height: 60px;
+                text-transform: capitalize;
+                color: #181818;
+            }
+            ul li,
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                text-align: left;
+                text-transform: capitalize;
+                color: #6D6E71;
+                padding: 20px 15px 20px 0px;
+            }
+            ul li img {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+    .partner-banner-bottom {
+        width: 100%;
+        max-width: 1320px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #333333;
+        margin: 110px auto;
+    }
+
+    .partner-banner-bottom {
+        max-width: 900px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 35px;
+    }
+}

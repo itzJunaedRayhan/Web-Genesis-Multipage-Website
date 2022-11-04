@@ -1,0 +1,132 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .workshop-section {
+        padding: 60px 10px;
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .workshop-wrapper {
+            width: 100%;
+            height: auto;
+            margin-bottom: 120px;
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+
+            .back-button {
+                left: 10px;
+            }
+    
+            .workshop-content {
+                width: 100%;
+                margin-bottom: 35px;
+                h2 {
+                    font-size: 36px;
+                    line-height: 50px;
+                    margin: 20px 0px;
+                }
+    
+                h4 {
+                    font-size: 20px;
+                    line-height: 30px;
+                    margin: 20px 0px; 
+                }
+    
+                a {
+                    max-width: 160px;
+                    height: 56px;
+                    display: block;
+                    margin: 20px 0px;
+                    font-size: 14px;
+                    padding: 18px 30px;
+                    text-align: center;
+                }
+            }
+    
+            .workshop-img {
+                width: 80%;
+                margin: 0 auto;
+                max-height: 600px;
+            }
+        }
+    
+        a {
+            max-width: 200px;
+            height: 56px;
+            margin: 0 auto;
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (min-width: 575px) and (max-width: 767px) {
+    .workshop-section {
+        padding: 60px 10px;
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .workshop-wrapper {
+            width: 100%;
+            height: auto;
+            margin-bottom: 120px;
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: center;
+            align-items: center;
+    
+            .workshop-content {
+                width: 100%;
+                h2 {
+                    font-size: 46px;
+                    line-height: 56px;
+                    margin: 20px 0px;
+                }
+    
+                h4 {
+                    font-size: 24px;
+                    line-height: 34px;
+                    margin: 20px 0px; 
+                }
+    
+                a {
+                    max-width: 180px;
+                    height: 60px;
+                    display: block;
+                    margin: 20px 0px;
+                    font-size: 17px;
+                    line-height: 27px;
+                    padding: 22px 30px;
+                    text-align: center;
+                }
+            }
+    
+            .workshop-img {
+                max-width: 450px;
+                max-height: 500px;
+                margin: 0 auto;
+                max-height: 600px;
+            }
+        }
+    
+        a {
+            display: block;
+            max-width: 240px;
+            height: 60px;
+            margin: 0 auto;
+            font-size: 17px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .workshop-section {
+        padding: 40px 30px 80px 30px;
+
+        .workshop-wrapper {
+            height: 500px;
+            margin-bottom: 30px;
+        }
+    }
+}

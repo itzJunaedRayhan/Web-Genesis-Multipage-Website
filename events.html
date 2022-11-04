@@ -1,0 +1,275 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Events</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!--    Bootstrap   -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesomeAll.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header class="header-area">
+        <div class="container">
+            <div class="header-top">
+                <div class="row align-items-center navbar">
+                    <div class="col-xl-3 col-lg-3 col-md-12">
+                        <div class="logo">
+                            <a href="./index.html" class="standard-logo">
+                                <img src="./images/Home Page/Medsembly-logo.png" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-12 navbar-right">
+                        <div class="header-right d-flex justify-content-end align-items-center">
+                            <nav class="main-menu">
+                                <ul>
+                                    <li><a href="./forStudent.html">For Students</a></li>
+                                    <li><a href="./forProfessional.html">For Professional</a>
+                                    <li><a href="./about.html">About</a></li>
+                                    <li class="dropdown-container">
+                                        <label for="openDropdown" class="dropdown"><a href="./resources.html">Resources</a></label>
+                                        <ul class="dropdown-menu">
+                                          <li><a href="./PhysicianAssistant.html">Physician Assistant</a></li>
+                                          <li><a href="./discount.html">Discount codes</a></li>
+                                          <li><a href="./events.html">Events</a></li>
+                                          <li><a href="./grePreb.html">Gre Preb</a></li>
+                                          <li><a href="./workshops.html">Workshop</a></li>
+                                          <li><a href="./scholarships.html">Scholarships</a></li>
+                                          <li><a href="./contactUs.html">Contact Us</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="theme-btn float-left d-none d-lg-block">
+                                <a href="#">Join Medsembly</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--   Navbar For Small Size Devices  -->
+                    <div class="hamburger-menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="mobile-nav-wrapper">
+                        <div class="close-btn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <div class="navbar-links">
+                            <ul>
+                                <li><a href="./forStudent.html">For Students</a></li>
+                                <li><a href="./forProfessional.html">For Professional</a>
+                                <li><a href="./about.html">About</a></li>
+                                <li><a href="./resources.html">Resources</a></li>
+                                <li>
+                                    <ul class="sub-item-wrapper">
+                                        <li><a href="./PhysicianAssistant.html">Physician Assistant</a></li>
+                                        <li><a href="./discount.html">Discount codes</a></li>
+                                        <li><a href="">Events</a></li>
+                                        <li><a href="#">Gre Preb</a></li>
+                                        <li><a href="#">Workshop</a></li>
+                                        <li><a href="#">Scholarships</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="theme-btn float-left d-none d-lg-block">
+                                <a href="#">Join Medsembly</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-area End -->
+
+
+    <!--   Contact Us Banner Section  -->
+    <section class="discount-banner-section events-banner-section">
+        <div class="container-fluid">
+            <div class="row discount-wrapper" style="background: url(./images/resources/events-banner.png); background-repeat: no-repeat;">
+                <h2>Events</h2>
+            </div>
+        </div>
+    </section>
+
+
+    <!--    Events Section  -->
+    <section class="events-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 calendar-wrapper">
+                    <div class="calendar"></div>
+                </div>
+                <div class="col-md-6 event-wrapper">
+                    <div class="events-title">
+                        <h3>Recent Events</h3>
+                        <a href="#">View All</a>
+                    </div>
+                    <div class="event-list">
+                        <div class="event-left">
+                            <h4>Medical event USP</h4>
+                            <p><i class="fa-regular fa-clock"></i> 09:30 - 10:30 Am</p>
+                        </div>
+                        <div class="event-right">
+                            <input checked id="event1" type="radio" name="event" />
+                            <label class="custom-radio" for="event1"></label>
+                        </div>
+                    </div>
+
+                    <div class="event-list">
+                        <div class="event-left">
+                            <h4>Medical event USP</h4>
+                            <p><i class="fa-regular fa-clock"></i> 09:30 - 10:30 Am</p>
+                        </div>
+                        <div class="event-right">
+                            <input id="event2" type="radio" name="event" />
+                            <label class="custom-radio" for="event2"></label>
+                        </div>
+                    </div>
+
+                    <div class="event-list">
+                        <div class="event-left">
+                            <h4>Medical event USP</h4>
+                            <p><i class="fa-regular fa-clock"></i> 09:30 - 10:30 Am</p>
+                        </div>
+                        <div class="event-right">
+                            <input id="event3" type="radio" name="event" />
+                            <label class="custom-radio" for="event3"></label>
+                        </div>
+                    </div>
+
+                    <div class="event-list">
+                        <div class="event-left">
+                            <h4>Medical event USP</h4>
+                            <p><i class="fa-regular fa-clock"></i> 09:30 - 10:30 Am</p>
+                        </div>
+                        <div class="event-right">
+                            <input id="event4" type="radio" name="event" />
+                            <label class="custom-radio" for="event4"></label>
+                        </div>
+                    </div>
+
+                    <div class="event-list">
+                        <div class="event-left">
+                            <h4>Medical event USP</h4>
+                            <p><i class="fa-regular fa-clock"></i> 09:30 - 10:30 Am</p>
+                        </div>
+                        <div class="event-right">
+                            <input id="event5" type="radio" name="event" />
+                            <label class="custom-radio" for="event5"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--    Footer Section  -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <a href="./index.html"><img class="logo" src="./images/Home Page/Medsembly-logo.png" alt="Logo"></a>
+            </div>
+            <div class="row footer-wrapper">
+                <div class="col-md-6">
+                    <div class="footer-link-wrapper-one">
+                        <div class="footer-one">
+                            <p>Stay connected, join our newsletter</p>
+                            <div class="input-wrapper">
+                                <input type="text" placeholder="Your email" />
+                                <div class="arrow"><i class="fa-solid fa-greater-than"></i></div>
+                            </div>
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-two">
+                            <ul>
+                                <li class="list-title">Pages</li>
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="./forStudent.html">For Students</a></li>
+                                <li><a href="./forProfessional.html">For Professional</a></li>
+                                <li><a href="./about.html">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-link-wrapper-two">
+                        <div class="footer-three">
+                            <ul>
+                                <li class="list-title">Resources</li>
+                                <li><a href="./blog.html">Blog</a></li>
+                                <li><a href="resources.html">Resources</a></li>
+                                <li><a href="./discount.html">Discounts</a></li>
+                                <li><a href="#">Get Magoosh</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-four">
+                            <ul>
+                                <li class="list-title">Company</li>
+                                <li><a href="#">Join Medsembly</a></li>
+                                <li><a href="./forPartner.html">Partnerships</a></li>
+                                <li><a href="./contactUs.html">Contact Us</a></li>
+                                <li><a href="./about.html">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="copy-left">
+                    <p>©Copyright 2022 Medsembly. All Rights Reserved.Designed by Cosmo Creative.</p>
+                </div>
+                <div class="copy-right">
+                    <ul class="copyright-links">
+                        <li><a href="./termsAndCondition.html">terms & condintions</a></li>
+                        <li><span> | </span></li>
+                        <li><a href="./privacyPolicy.html">privacy policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- all js files -->
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+
+    <!--    Bootstrap   -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--    Swiper  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--    Font-Awesome    -->
+    <script src="./js/font-awesome-all-min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

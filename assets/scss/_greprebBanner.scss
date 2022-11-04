@@ -1,0 +1,54 @@
+.gre-preb-banner-section {
+    .container {
+        max-width: 1350px;
+        margin: 0 auto;
+
+        .row {
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+    .grepreb-banner-wrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .grepreb-left{
+            max-width: 550px;
+            margin-right: auto;
+            img {
+                width: 182px;
+                height: 66px;
+            }
+            h2 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 50px;
+                line-height: 60px;
+                text-transform: capitalize;
+                color: #000000;
+                margin: 16px 0 40px 0px;
+            }
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                text-transform: capitalize;
+                color: #6D6E71;
+            }
+        }
+
+        .grepreb-right {
+            max-width: 702px;
+            max-height: 638px;
+            margin: 0px 0px 120px auto;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

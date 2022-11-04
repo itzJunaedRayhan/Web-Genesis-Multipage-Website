@@ -1,0 +1,35 @@
+.terms-and-condition-section {
+    max-width: 950px;
+    margin: 0 auto;
+    .privacy-title {
+        p {
+            font-family: 'Inter';
+            font-style: italic;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            text-transform: capitalize;
+            color: #EA1C2D;
+        }
+    }
+
+    .privacy-sub-title {
+        small {
+            font-weight: 600;
+            color: #000;
+            padding-left: 15px;
+        }
+        i {
+            padding-left: 10px;
+        }
+        b {
+            color: #000;
+        }
+        p {
+            word-wrap: break-word;
+            span {
+                color: #EA1C2D;
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+.become-partner-section {
+    width: 100%;
+
+    .become-partner-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 110px 15px;
+
+        .become-partner-content {
+            max-width: 550px;
+            h2 {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 50px;
+                line-height: 60px;
+                text-transform: capitalize;
+                color: #181818;
+            }
+            a {
+                max-width: 210px;
+                display: flex;
+                justify-content: center;
+                margin: 50px 0px;
+                word-wrap: nowrap;
+            }
+        }
+        .become-partner-img {
+            max-width: 750px;
+            max-height: 580px;
+            position: relative;
+            margin: 50px 0px;
+            .partner-bottom {
+                max-width: 530px;
+                max-height: 520px;
+                z-index: 11;
+            }
+            .partner-top {
+                max-width: 287px;
+                max-height: 302px;
+                position: absolute;
+                right: -10%;
+                top: 23%;
+            }
+
+            &::before {
+                content: "";
+                display: block;
+                width: 290px;
+                height: 300px;
+                position: absolute;
+                left: -70px;
+                bottom: -70px;
+                background: rgba(234, 28, 45, 0.1);
+                z-index: -1;
+                background-repeat: no-repeat;   
+            }
+        }
+    } 
+}

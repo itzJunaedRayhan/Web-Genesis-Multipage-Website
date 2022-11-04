@@ -1,0 +1,208 @@
+@mixin title {
+    max-width: 680px;
+    margin: 60px auto;
+
+    h2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #000000;
+    }
+}
+
+@mixin formH4Design {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+@mixin formInput($width) {
+    input {
+        width: $width;
+        height: 62px;
+        background: #EEEEEE;
+        border-radius: 10px;
+        border: none;
+        padding-left: 15px;
+        font-size: 18px;
+    }
+}
+
+@mixin listTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+@mixin LinkListStyle {
+    ul {
+        li {
+            a {
+                display: block;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 27px;
+                text-transform: capitalize;
+                color: #6D6E71;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@mixin CarouselSwiper {
+    .swiper {
+        width: 100%;
+        height: 100%;
+
+        .swiper-pagination-bullet {
+            width: 12px;
+            height: 8px;
+            border-radius: 0%;
+            background-color: #D9D9D9;
+            opacity: 1;
+        }
+
+        .swiper-pagination-bullet-active {
+            opacity: var(--swiper-pagination-bullet-opacity, 1);
+            background: #EA1C2D;
+            width: 12px;
+            height: 8px;
+            border-radius: 0%;
+        }
+    }
+
+    .swiper-slide {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+}
+
+
+@mixin blogComments ($width) {
+    max-width: $width;
+    height: 170px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    img {
+        width: 70px;
+        height: 70px;
+        margin-right: 25px;
+    }
+
+    div {
+        h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            text-transform: capitalize;
+            color: #000000;
+        }
+        small {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-transform: capitalize;
+            color: #6D6E71;
+            padding: 8px 0 12px 0;
+        }
+        p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            text-transform: capitalize;
+            color: #6D6E71;
+        }
+    }
+    button {
+        width: 80px;
+        padding: 13px 15px;
+        font-size: 16px;
+        color: #fff;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+}
+    
+
+
+//  For 320px Size device:
+@mixin blogCommentForMobileSize {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto 20px auto;
+    padding: 10px 13px;
+    border-radius: 14px;
+    flex-wrap: wrap;
+
+    img {
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+    }
+
+    div {
+        h2 {
+            font-size: 20px;
+            line-height: 30px;
+        }
+        small {
+            font-size: 12px;
+            line-height: 20px;
+            padding: 8px 0 12px 0;
+        }
+        p {
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+    button {
+        width: 80px;
+        padding: 10px 12px;
+        font-size: 15px;
+        line-height: 25px;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+}

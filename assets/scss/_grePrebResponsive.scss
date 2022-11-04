@@ -1,0 +1,487 @@
+@media screen and (min-width: 320px) and (max-width: 990px) {
+    .gre-preb-banner-section {
+        .container {
+            max-width: 100%;
+        }
+        .grepreb-banner-wrapper {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+            justify-content: center;
+            .grepreb-left{
+                order: 1;
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                padding-bottom: 70px;
+                img {
+                    width: 120px;
+                    height: 40px;
+                    margin: 0 auto;
+                    transform: translateX(50%);
+                }
+                h2 {
+                    font-size: 28px;
+                    line-height: 40px;
+                    margin: 8px 0 20px 0px;
+                    text-align: center;
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-align: center;
+                }
+            }
+    
+            .grepreb-right {
+                max-width: 90%;
+                max-height: auto;
+                margin: 0px auto 70px auto;
+            }
+        }
+    }
+
+
+
+    .what-you-get-section {
+        padding: 80px 0px;
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+    
+        h2 {
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: bold;
+            text-align: center;
+            margin: 0px auto 40px auto;
+        }
+    
+        .what-you-get-wrapper {
+            width: 94%;
+            margin: 0 auto;
+            .what-you-get {
+                width: 100%;
+                height: 300px;
+                border-radius: 10px;
+                margin: 13px auto;
+    
+                img {
+                    width: 44px;
+                    height: 44px;
+                    margin: 15px 0px;
+                }
+    
+                h3 {
+                    font-size: 18px;
+                    line-height: 34px;
+                    padding: 15px 0px;
+                    text-align: center;
+                }
+    
+                p {
+                    font-size: 16px;
+                    line-height: 30px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+
+
+    .package-section {
+        .package-wrapper {
+            .package {
+                max-height: auto;
+                max-width: 90%;
+                border-radius: 12px;
+                padding: 0px 5px;
+                margin: 60px auto 60px auto;
+                .package-top {
+                    text-align: center;
+                    padding: 30px 0px;
+                    img {
+                        max-width: 120px;
+                        height: auto;
+                        margin: 0px auto 20px auto;
+                    }
+                    h2 {
+                        font-size: 22px;
+                        line-height: 32px;
+                        margin-bottom: 7px;
+                    }
+    
+                    h4 {
+                        font-size: 16px;
+                        line-height: 26px;
+                    }
+                }
+    
+                .package-body {
+                    padding: 0px 20px 20px 20px;
+                    h3 {
+                        font-size: 22px;
+                        line-height: 32px;
+                        margin: 20px 0px 10px 0px;
+                    }
+    
+                    ul {
+                        li {
+                            img {
+                                width: 20px;
+                                height: 20px;
+                                margin-right: 10px;
+                            }
+                            padding: 5px 0px;
+                            font-size: 15px;
+                            line-height: 26px;
+                        }
+                    }
+                }
+    
+                button {
+                    max-width: 150px;
+                    padding: 15px 16px;
+                    margin: 10px auto 35px auto;
+                }
+            }
+    
+            .package-text {
+                max-width: 95%;
+                margin: 0 auto 80px auto;
+                font-size: 16px;
+                line-height: 28px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 990px) {
+    .gre-preb-banner-section {
+        .container {
+            max-width: 100%;
+        }
+        .grepreb-banner-wrapper {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+            justify-content: center;
+            .grepreb-left{
+                order: 1;
+                max-width: 90%;
+                margin-right: auto;
+                margin-left: auto;
+                padding-bottom: 70px;
+                img {
+                    width: 150px;
+                    height: auto;
+                    margin: 0 auto;
+                    transform: translateX(40%);
+                }
+                h2 {
+                    font-size: 56px;
+                    line-height: 74px;
+                    margin: 8px 0 20px 0px;
+                    text-align: center;
+                }
+                p {
+                    font-size: 24px;
+                    line-height: 29px;
+                    text-align: center;
+                }
+            }
+    
+        }
+    }
+
+    
+    .what-you-get-section {
+        padding: 70px 0px;
+    
+        h2 {
+            font-size: 34px;
+            line-height: 48px;
+        }
+    
+        .what-you-get-wrapper {
+            width: 96%;
+            .what-you-get {
+                width: 46%;
+                height: 280px;
+                border-radius: 10px;
+                margin: 13px auto;
+    
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin: 15px 0px;
+                }
+    
+                h3 {
+                    font-size: 20px;
+                    line-height: 34px;
+                }
+    
+                p {
+                    font-size: 17px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+
+    .package-section {
+        .package-wrapper {
+            .package {
+                max-width: 90%;
+                border-radius: 12px;
+                padding: 0px 5px;
+                margin: 80px auto 80px auto;
+                .package-top {
+                    text-align: center;
+                    padding: 30px 0px;
+                    img {
+                        max-width: 140px;
+                        height: auto;
+                        margin: 0px auto 20px auto;
+                    }
+                    h2 {
+                        font-size: 28px;
+                        line-height: 45px;
+                        margin-bottom: 7px;
+                    }
+    
+                    h4 {
+                        font-size: 22px;
+                        line-height: 39px;
+                    }
+                }
+    
+                .package-body {
+                    padding: 0px 20px 20px 20px;
+                    h3 {
+                        font-size: 28px;
+                        line-height: 45px;
+                        margin: 20px 0px 10px 0px;
+                    }
+    
+                    ul {
+                        li {
+                            img {
+                                width: 30px;
+                                height: 30px;
+                                margin-right: 12px;
+                            }
+                            padding: 13px 0px;
+                            font-size: 17px;
+                            line-height: 28px;
+                        }
+                    }
+                }
+    
+                button {
+                    max-width: 160px;
+                    padding: 16px 18px;
+                    margin: 10px auto 65px auto;
+                }
+            }
+    
+            .package-text {
+                max-width: 95%;
+                margin: 0 auto 80px auto;
+                font-size: 20px;
+                line-height: 35px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    .gre-preb-banner-section {
+        .grepreb-banner-wrapper {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .grepreb-left{
+                order: 0;
+                max-width: 90%;
+                margin-right: auto;
+                margin-left: auto;
+                padding-bottom: 70px;
+                img {
+                    width: 120px;
+                    height: 40px;
+                    margin: 0 auto;
+                    transform: translateX(10%);
+                }
+                h2 {
+                    font-size: 34px;
+                    line-height: 55px;
+                    margin: 8px 0 20px 0px;
+                    text-align: center;
+                }
+                p {
+                    font-size: 20px;
+                    line-height: 29px;
+                    text-align: center;
+                }
+            }
+    
+            .grepreb-right {
+                max-width: 90%;
+                max-height: auto;
+                margin: 0px auto 70px auto;
+            }
+        }
+    }
+
+    .package-section {
+        .package-wrapper {
+            .package {
+                max-width: 700px;
+                border-radius: 15px;
+                padding: 0px 5px;
+                margin: 80px auto 80px auto;
+                .package-top {
+                    text-align: center;
+                    padding: 30px 0px;
+                    img {
+                        max-width: 140px;
+                        height: auto;
+                        margin: 0px auto 20px auto;
+                    }
+                    h2 {
+                        font-size: 28px;
+                        line-height: 45px;
+                        margin-bottom: 7px;
+                    }
+    
+                    h4 {
+                        font-size: 22px;
+                        line-height: 39px;
+                    }
+                }
+    
+                .package-body {
+                    padding: 0px 20px 20px 20px;
+                    h3 {
+                        font-size: 28px;
+                        line-height: 45px;
+                        margin: 20px 0px 10px 0px;
+                    }
+    
+                    ul {
+                        li {
+                            img {
+                                width: 30px;
+                                height: 30px;
+                                margin-right: 12px;
+                            }
+                            padding: 13px 0px;
+                            font-size: 17px;
+                            line-height: 28px;
+                        }
+                    }
+                }
+    
+                button {
+                    max-width: 160px;
+                    padding: 16px 18px;
+                    margin: 10px auto 65px auto;
+                }
+            }
+    
+            .package-text {
+                max-width: 95%;
+                margin: 0 auto 80px auto;
+                font-size: 20px;
+                line-height: 35px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+    .gre-preb-banner-section {
+        .grepreb-banner-wrapper {
+            width: 100%;
+            .grepreb-left{
+                max-width: 100%;
+                margin-right: auto;
+                margin-left: auto;
+                padding-bottom: 70px;
+                padding-left: 50px;
+                img {
+                    width: 120px;
+                    height: 40px;
+                    margin: 0 auto;
+                }
+                h2 {
+                    font-size: 38px;
+                    line-height: 55px;
+                    margin: 8px 0 20px 0px;
+                    text-align: left;
+                }
+                p {
+                    font-size: 24px;
+                    line-height: 29px;
+                    text-align: left;
+                }
+            }
+    
+            .grepreb-right {
+                max-width: 90%;
+                max-height: auto;
+                margin: 0px auto 70px auto;
+            }
+        }
+    }
+
+    .what-you-get-section {
+        padding: 110px 0px;
+    
+        h2 {
+            font-size: 38px;
+            line-height: 55px;
+        }
+    
+        .what-you-get-wrapper {
+            width: 90%;
+            .what-you-get {
+                width: 30%;
+                max-width: 410px;
+                height: 280px;
+                border-radius: 10px;
+                margin: 13px auto;
+    
+                img {
+                    width: 60px;
+                    height: 50px;
+                    margin: 15px 0px;
+                }
+    
+                h3 {
+                    font-size: 25px;
+                    line-height: 40px;
+                }
+    
+                p {
+                    font-size: 18px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+}

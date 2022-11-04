@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+
+
+.primary_button {
+  padding: 18px 28px;
+  background: #EA1C2D;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+
+.feature {
+  width: 500px;
+  margin: 40px 0px 40px 0px;
+  max-height: 620px;
+  border-radius: 16px;
+  padding: 30px;
+  h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: capitalize;
+    color: #0B0036;
+  }
+
+  p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6D6E71;
+    padding: 20px 0px;
+  }
+
+  img {
+    width: 95%;
+  }
+}
+
+
+.step {
+  max-width: 303px;
+  min-height: 539px;
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 10px 20px 15px 35px;
+  margin: 20px;
+  h2 {
+      width: 100%;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 52px;
+      line-height: 62px;
+      color: rgba(234, 28, 45, 0.1);
+      text-align: right;
+  }
+
+  .step-img {
+      width: 74px;
+      height: 74px;
+      border-radius: 50%;
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      cursor: pointer;
+      transition: all 1s ease;
+      img {
+          width: 70%;
+          height: 70%;
+          margin: 0 auto;
+          transition: all 1s ease;
+      }
+
+      &:hover {
+          img {
+              margin-bottom: 20px;
+          }
+      }
+  }
+
+  h3 {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 38px;
+      text-align: left;
+      text-transform: capitalize;
+      color: #000000;
+      margin: 20px 0px 6px 0px;
+  }
+
+  p {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #6D6E71;
+  }
+
+  &:hover {
+    filter: drop-shadow(8px 10px 60px rgba(0, 0, 0, 0.08));
+  }
+}
+
+
+
+
+
+
+

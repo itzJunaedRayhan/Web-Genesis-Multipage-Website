@@ -1,0 +1,238 @@
+@media screen and (min-width: 320px) and (max-width: 991px) {
+    .contact-us-section {
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 110px 15px;
+
+            .row {
+                padding: 0;
+                margin: 0;
+            }
+        } 
+    
+        .contact-us-wrapper {
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+    
+            .contact-us-img {
+                max-width: 85%;
+                max-height: auto;
+                margin: 0 auto;
+        
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        
+            .contact-us-form {
+                max-width: 500px;
+                height: auto;
+                margin: 60px auto 0px auto;
+        
+                h2 {
+                    font-size: 24px;
+                    line-height: 30px;
+                    font-weight: bold;
+                    text-align: left;
+                }
+        
+                p {
+                    font-size: 16px;
+                    line-height: 28px;
+                    margin: 20px 0px;
+                    text-align: justify;
+                }
+        
+                form {
+                    margin: 40px auto;
+                    .user-name .first-name h3,
+                    .user-name .last-name h3,
+                    .email-address h3,
+                    .phone-number h3,
+                    .message h3,
+                    .recaptcha h3 {
+                        font-size: 16px;
+                        line-height: 22px;
+                        margin-bottom: 5px;
+                    }
+        
+                    .user-name .first-name input,
+                    .user-name .last-name input,
+                    .email-address input,
+                    .phone-number input {
+                        width: 100%;
+                        height: 45px;
+                        padding-left: 12px;
+                        font-size: 20px;
+                        outline: none;
+                        margin-bottom: 15px;
+                    }
+        
+        
+                    .user-name {
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        .first-name {
+                            width: 100%;
+                            margin-right: 0%;
+                        }
+        
+                        .last-name {
+                            width: 100%;
+                            margin-left: 0%;
+                        }
+                    }
+        
+                    .message {
+                        textarea {
+                            width: 100%;
+                            height: 140px;
+                            border-radius: 8px;
+                            padding-left: 12px;
+                            font-size: 20px;
+                            margin-bottom: 20px;
+                        }
+                    }
+        
+                    .recaptcha {
+                        width: 100%;
+                        height: 62px;
+                        display: flex;
+                        border-radius: 8px;
+                        margin-bottom: 30px;
+                        padding: 24px 22px;
+        
+                        input {
+                            width: 35px;
+                            height: 35px;
+                            margin-right: 12px;
+                        }
+        
+                        img {
+                            width: 48px;
+                            height: 55px;
+                            margin-left: auto;
+                        }
+                    }
+
+                    button {
+                        padding: 16px 18px;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .contact-us-section {
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 70px 15px;
+
+            .row {
+                padding: 0;
+                margin: 0;
+            }
+        } 
+    
+        .contact-us-wrapper {
+            align-items: flex-start;
+            .contact-us-img {
+                max-width: 85%;
+                max-height: auto;
+                margin: 0 auto;
+            }
+        
+            .contact-us-form {
+                max-width: 500px;
+                height: auto;
+                margin: 0px auto;
+        
+                h2 {
+                    font-size: 28px;
+                    line-height: 40px;
+                    text-align: left;
+                }
+        
+                p {
+                    font-size: 16px;
+                    line-height: 28px;
+                    margin: 20px 0px;
+                    text-align: justify;
+                }
+        
+                form {
+                    margin: 40px auto;
+                    .user-name .first-name h3,
+                    .user-name .last-name h3,
+                    .email-address h3,
+                    .phone-number h3,
+                    .message h3,
+                    .recaptcha h3 {
+                        font-size: 16px;
+                        line-height: 22px;
+                        margin-bottom: 5px;
+                    }
+        
+                    .user-name .first-name input,
+                    .user-name .last-name input,
+                    .email-address input,
+                    .phone-number input {
+                        width: 100%;
+                        height: 48px;
+                        padding-left: 12px;
+                        font-size: 18px;
+                        outline: none;
+                        margin-bottom: 15px;
+                    }
+        
+        
+                    .user-name {
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
+        
+                    .message {
+                        textarea {
+                            width: 100%;
+                            height: 100px;
+                            border-radius: 8px;
+                            padding-left: 12px;
+                            font-size: 16px;
+                            margin-bottom: 20px;
+                        }
+                    }
+        
+                    .recaptcha {
+                        width: 100%;
+                        height: 48px;
+                        display: flex;
+                        border-radius: 8px;
+                        margin-bottom: 30px;
+                        padding: 24px 22px;
+        
+                        input {
+                            width: 25px;
+                            height: 25px;
+                            margin-right: 12px;
+                        }
+        
+                        img {
+                            width: 35px;
+                            height: 40px;
+                            margin-left: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

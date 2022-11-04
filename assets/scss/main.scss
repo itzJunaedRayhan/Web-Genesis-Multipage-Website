@@ -1,0 +1,109 @@
+@import 'variable';
+@import 'common';
+@import 'default';
+@import 'mixin';
+@import 'header';
+@import 'banner';
+@import 'features';
+@import 'team';
+@import 'step';
+@import 'studentReview';
+@import 'newsletter';
+@import 'footer';
+@import 'responsive';
+
+//  About Section
+@import 'AboutBanner';
+@import 'AboutServiceSection';
+@import 'AboutTeamSection';
+@import 'AboutResponsive';
+
+//  For Student
+@import 'forStudentBanner';
+@import 'HaveQuestion';
+@import 'forStudentServices';
+@import 'Pricing';
+@import 'faq';
+@import 'joinSection';
+@import 'StudentNewsletter';
+@import 'forStudentResponsive';
+
+
+//  For Partners 
+@import 'BecomePartner';
+@import 'partnersBanner';
+@import 'forPartnerResponsive';
+
+
+//  For ProfessionalBanner
+@import 'forProfessionalBanner';
+@import 'professionalOffer';
+@import 'forProfessionalResponsive';
+
+//  Resource Section:
+@import 'resourcesBanner';
+@import 'resourceService';
+@import 'resourcesResponsive';
+
+
+//  Physician Assistant: 
+@import 'physicianBannerSection';
+@import 'physicianAbout';
+@import 'physicianResponsive';
+
+
+//  Discount:
+@import 'discountBanner';
+@import 'discountFaq';
+@import 'discount';
+@import 'discountResponsive';
+
+
+//  Workshop
+@import 'workshop';
+@import 'workshopResponsive';
+
+
+//  Scholarship
+@import 'scholarship';
+@import 'scholarshipResponsive';
+
+
+//  Contact Us Banner
+@import 'contactUs';
+@import 'contactUsResponsive';
+
+
+//  Events:
+@import 'eventsBanner';
+@import 'events';
+@import 'eventsResponsive';
+
+
+
+//  Gre-Preb 
+@import 'greprebBanner';
+@import 'whatYouGet';
+@import 'package';
+@import 'grePrebResponsive';
+
+
+//  Privacy-Policy
+@import 'privacyPolicy';
+@import 'privacyPolicyResponsive';
+
+
+//  Terms And Condition:
+@import 'termsAndCondition';
+@import 'termAndConditionResponsive';
+
+
+//  Blog:
+@import 'blog';
+@import 'blogResponsive';
+
+
+
+//  Blog Details:
+@import 'blogDetails';
+@import 'blogDetailsResponsive';

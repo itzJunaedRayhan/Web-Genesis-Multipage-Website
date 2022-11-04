@@ -1,0 +1,316 @@
+@media screen and (min-width: 320px) and (max-width: 1400px) {
+  .professional-banner-section .professional-banner-title {
+    width: 100%;
+    max-width: 100%;
+    margin: 35px auto 50px auto;
+    padding: 15px;
+  }
+  .professional-banner-section .professional-banner-title h1 {
+    font-size: 38px;
+    line-height: 55px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .professional-banner-section .professional-banner-title p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .professional-banner-section .professional-banner-top {
+    width: 100%;
+    height: 0px;
+    background: none;
+    margin: 0 0 50px 0;
+  }
+  .professional-banner-section .professional-banner-top .top-wrapper .banner-left-img {
+    max-width: 78px;
+    max-height: 78px;
+  }
+  .professional-banner-section .professional-banner-top .top-wrapper .banner-left-img img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .professional-banner-section .professional-banner-top .top-wrapper .banner-middle-img {
+    max-width: 104px;
+    max-height: 104px;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+  }
+  .professional-banner-section .professional-banner-top .top-wrapper .banner-right-img {
+    max-width: 78px;
+    max-height: 78px;
+    position: absolute;
+    right: 12%;
+    top: 20%;
+  }
+  .professional-banner-section .professional-banner-middle {
+    margin: 110px auto 50px auto;
+  }
+  .professional-banner-section .professional-banner-middle .middle-left-img {
+    max-width: 80%;
+    max-height: auto;
+    margin: 50px auto;
+    position: relative;
+  }
+  .professional-banner-section .professional-banner-middle .middle-left-img .left-img-one {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .professional-banner-section .professional-banner-middle .middle-left-img .left-img-two {
+    max-width: 80px;
+    max-height: 80px;
+    position: absolute;
+  }
+  .professional-banner-section .professional-banner-middle .middle-content {
+    max-width: 100%;
+  }
+  .professional-banner-section .professional-banner-middle .middle-content h2 {
+    font-size: 34px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .professional-banner-section .professional-banner-middle .middle-content p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #6D6E71;
+  }
+  .professional-banner-section .professional-banner-bottom {
+    margin: 0 auto 110px auto;
+  }
+  .professional-banner-section .professional-banner-bottom .bottom-left-img {
+    max-width: 80%;
+    max-height: auto;
+    margin: 0 auto;
+  }
+  .professional-banner-section .professional-banner-bottom .bottom-left-img .bottom-left-img-one {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+  }
+  .professional-banner-section .professional-banner-bottom .bottom-left-img .bottom-left-img-two {
+    max-width: 80px;
+    max-height: 80px;
+  }
+  .professional-banner-section .professional-banner-bottom .bottom-content {
+    max-width: 100%;
+    margin-bottom: 25px;
+  }
+  .professional-banner-section .professional-banner-bottom .bottom-content h2 {
+    font-size: 34px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .professional-banner-section .professional-banner-bottom .bottom-content p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .professional-offer-section {
+    padding: 150px 0px;
+  }
+  .professional-offer-section .professional-offer-context {
+    max-width: 100%;
+  }
+  .professional-offer-section .professional-offer-context h2 {
+    font-size: 38px;
+    line-height: 55px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .professional-offer-section .professional-offer-context ul li {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px 10px 10px 0px;
+    margin: 12px 0px;
+    border-radius: 10px;
+  }
+  .professional-offer-section .professional-offer-context ul li img {
+    width: 28px;
+    height: 28px;
+    margin: 16px;
+  }
+  .professional-offer-section .professional-offer-context a {
+    font-size: 12px;
+    margin: 20px 0px;
+    max-width: 170px;
+    white-space: nowrap;
+  }
+  .professional-offer-section .offer-img-wrapper {
+    max-width: 80%;
+    max-height: auto;
+    top: 10%;
+    margin-left: 10px;
+  }
+  .professional-offer-section .offer-img-wrapper .offer-bottom-img {
+    max-width: 85%;
+    max-height: 85%;
+    margin: 0 auto;
+  }
+  .professional-offer-section .offer-img-wrapper .offer-top-img {
+    max-width: 80px;
+    max-height: 80px;
+    position: absolute;
+    right: -15%;
+    bottom: -30%;
+  }
+  .professional-newsletter-section .get-app .get-app-text {
+    max-width: 150px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 1400px) {
+  .professional-newsletter-section .get-app .get-app-text {
+    max-width: 320px;
+    right: 3%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .professional-banner-section .professional-banner-title {
+    width: 100%;
+    max-width: 80%;
+    margin: 75px auto 10px auto;
+  }
+  .professional-banner-section .professional-banner-title h1 {
+    font-size: 64px;
+    line-height: 84px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .professional-banner-section .professional-banner-title p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .professional-banner-section .professional-banner-top {
+    width: 100%;
+    height: 300px;
+    background: url("../../images/Inner/Professional/banner/banner-bg.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 0 50px 0;
+  }
+  .professional-banner-section .professional-banner-top .top-wrapper .banner-left-img {
+    max-width: 160px;
+    max-height: 160px;
+  }
+  .professional-banner-section .professional-banner-top .top-wrapper .banner-middle-img {
+    max-width: 220px;
+    max-height: 220px;
+  }
+  .professional-banner-section .professional-banner-top .top-wrapper .banner-right-img {
+    max-width: 160px;
+    max-height: 160px;
+  }
+  .professional-banner-section .professional-banner-middle {
+    margin: 110px auto 50px auto;
+  }
+  .professional-banner-section .professional-banner-middle .middle-left-img .left-img-two {
+    max-width: 160px;
+    max-height: 160px;
+  }
+  .professional-banner-section .professional-banner-bottom .bottom-left-img .bottom-left-img-two {
+    max-width: 160px;
+    max-height: 160px;
+  }
+  .professional-offer-section {
+    padding: 120px 0px;
+  }
+  .professional-offer-section .professional-offer-context ul li {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .professional-offer-section .professional-offer-context ul li img {
+    width: 38px;
+    height: 38px;
+    margin: 16px;
+  }
+  .professional-offer-section .professional-offer-context a {
+    font-size: 14px;
+    margin: 30px 0px;
+    max-width: 180px;
+  }
+  .professional-offer-section .offer-img-wrapper {
+    top: 50%;
+    transform: translateY(-40%);
+  }
+  .professional-offer-section .offer-img-wrapper .offer-top-img {
+    max-width: 160px;
+    max-height: 160px;
+    position: absolute;
+    right: -5%;
+    bottom: -25%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  .professional-banner-section .professional-banner-title {
+    width: 100%;
+    max-width: 785px;
+    margin: 115px auto 10px auto;
+  }
+  .professional-banner-section .professional-banner-title h1 {
+    font-size: 74px;
+    line-height: 88px;
+  }
+  .professional-banner-section .professional-banner-top {
+    height: 400px;
+  }
+  .professional-banner-section .professional-banner-top .top-wrapper .banner-left-img {
+    max-width: 160px;
+    max-height: 160px;
+    top: 32%;
+  }
+  .professional-banner-section .professional-banner-top .top-wrapper .banner-middle-img {
+    max-width: 220px;
+    max-height: 220px;
+    top: 35%;
+  }
+  .professional-banner-section .professional-banner-top .top-wrapper .banner-right-img {
+    max-width: 160px;
+    max-height: 160px;
+    top: 32%;
+  }
+  .professional-banner-section .professional-banner-middle {
+    margin: 110px auto 50px auto;
+  }
+  .professional-banner-section .professional-banner-middle .middle-left-img .left-img-two {
+    max-width: 160px;
+    max-height: 160px;
+  }
+  .professional-banner-section .professional-banner-bottom .bottom-left-img .bottom-left-img-two {
+    max-width: 160px;
+    max-height: 160px;
+  }
+  .faq-section {
+    max-width: 80%;
+  }
+  .professional-newsletter-section .get-app .get-app-text {
+    max-width: 400px;
+    right: 7%;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .professional-banner-section .professional-banner-middle .middle-content h2,
+.professional-banner-section .professional-banner-bottom .bottom-content h2,
+.professional-offer-section .professional-offer-context h2,
+.for-student-service-section h2,
+.faq-section h2 {
+    font-size: 56px;
+    line-height: 74px;
+  }
+  .professional-banner-section .professional-banner-middle .middle-left-img .left-img-two,
+.professional-banner-section .professional-banner-bottom .bottom-left-img .bottom-left-img-two,
+.professional-offer-section .offer-img-wrapper .offer-top-img {
+    max-width: 260px;
+    max-height: 260px;
+  }
+  .professional-banner-section .professional-banner-top .top-wrapper .banner-left-img,
+.professional-banner-section .professional-banner-top .top-wrapper .banner-right-img {
+    max-width: 230px;
+    max-height: 160px;
+  }
+  .professional-banner-section .professional-banner-top .top-wrapper .banner-middle-img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}/*# sourceMappingURL=forProfessionalResponsive.css.map */

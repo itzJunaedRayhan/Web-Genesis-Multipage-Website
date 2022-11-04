@@ -1,0 +1,289 @@
+@media screen and (min-width:320px) and (max-width: 1400px) {
+    //  Banner-Section
+    .partner-banner-section {
+        .partner-banner-top {
+            display: grid;
+            grid-template-columns: 1fr;
+            margin: 30px 0px 60px 0px;
+            .partner-banner-text-one {
+                order: 1;
+                h1 {
+                    font-size: 40px;
+                    line-height: 50px;
+                    margin: 20px auto;
+                    text-align: center;
+
+                    &::before {
+                        display: none;
+                    }
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 30px;
+                    text-align: center;
+                }
+            }
+            .partner-banner-img-one {
+                order: 0;
+                max-width: 90%;
+                max-height: auto;
+                margin: 0 auto;
+            }
+        }
+        .partner-banner-middle {
+            .partner-banner-img-two {
+                max-width: 90%;
+                max-height: auto;
+                margin: 0 auto;
+            }
+    
+            .partner-banner-text-two {
+                max-width: 540px;
+                h2 {
+                    font-size: 40px;
+                    line-height: 60px;
+                    margin: 20px auto;
+                    text-align: center;
+                }
+
+                ul li {
+                    padding: 12px 15px;
+                }
+
+                ul li,
+                p {
+                    font-size: 12px;
+                    line-height: 20px;
+                    text-align: left;
+                    padding: 12px 12px 12px 17px;
+                }
+                ul li img {
+                    width: 25px;
+                    height: 25px;
+                    margin-right: 12px;
+                }
+            }
+        }
+        .partner-banner-bottom {
+            width: 100%;
+            font-size: 18px;
+            line-height: 32px;
+            margin: 70px auto;
+            padding: 0 10px;
+        }
+    }
+
+
+    //  Become Partner Section
+    .become-partner-section {
+        width: 100%;
+    
+        .become-partner-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 70px 15px;
+    
+            .become-partner-content {
+                max-width: 100%;
+                h2 {
+                    font-size: 24px;
+                    line-height: 45px;
+                }
+                a {
+                    max-width: 150px;
+                    display: block;
+                    margin: 30px 0px 0px 0px;
+                    font-size: 14px;
+                    white-space: nowrap;
+                    padding: 16px 12px;
+                }
+            }
+            .become-partner-img {
+                max-width: 85%;
+                max-height: auto;
+                position: relative;
+                margin: 50px auto;
+                .partner-bottom {
+                    max-width: 100%;
+                    max-height: 100%;
+                    z-index: 11;
+                    margin: 0 auto;
+                }
+                .partner-top {
+                    max-width: 170px;
+                    max-height: 202px;
+                    position: absolute;
+                    right: -10%;
+                    top: 23%;
+                }
+    
+                &::before {
+                    width: 190px;
+                    height: 200px;
+                    left: -20px;
+                    bottom: -20px;
+                }
+            }
+        } 
+    }
+}
+
+
+@media screen and (min-width:576px) and (max-width: 1400px) {
+    .partner-banner-section .partner-banner-middle .partner-banner-text-two ul li, 
+    .partner-banner-section .partner-banner-middle .partner-banner-text-two p {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        padding: 12px 0 12px 0px !important;
+    }
+
+    .partner-banner-section .partner-banner-middle .partner-banner-text-two ul li {
+        padding: 17px 20px;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width: 1400px) {
+    //  Banner-Section
+    .partner-banner-section {
+        .partner-banner-top {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            .partner-banner-text-one {
+                width: 100%;
+                order: 0;
+                h1 {
+                    text-align: left;
+                    font-size: 35px;
+                    line-height: 50px;
+                }
+                p {
+                    font-size: 13px;
+                    line-height: 18px;
+                    text-align: left;
+                }
+            }
+            .partner-banner-img-one {
+                order: 1;
+                width: 90%;
+            }
+        }
+        .partner-banner-middle {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            .partner-banner-img-two {
+                width: 100%;
+                max-height: auto;
+                margin: 0 auto;
+            }
+    
+            .partner-banner-text-two {
+                width: 100%;
+                h2 {
+                    text-align: left;
+                    font-size: 35px;
+                    line-height: 50px;
+                }
+                ul li,
+                p {
+                    font-size: 13px;
+                    line-height: 18px;
+                    text-align: left;
+                    padding: 12px 10px;
+                }
+            }
+        }
+        .partner-banner-bottom {
+            font-size: 25px;
+            line-height: 40px;
+            margin: 60px auto;
+        }
+    }
+
+    //  Become Partner Section
+    .become-partner-section {
+        .become-partner-wrapper {
+            .become-partner-content {
+                max-width: 100%;
+                h2 {
+                    font-size: 34px;
+                    line-height: 50px;
+                }
+                a {
+                    max-width: 180px;
+                }
+            }
+        } 
+    }
+}
+
+
+@media screen and (min-width:992px) and (max-width: 1400px) {
+    //  Banner-Section
+    .partner-banner-section {
+        .partner-banner-top {
+            .partner-banner-text-one {
+                h1 {
+                    text-align: left;
+                    font-size: 56px;
+                    line-height: 74px;
+                }
+                p {
+                    font-size: 24px;
+                    line-height: 40px;
+                    text-align: left;
+                }
+            }
+        }
+        .partner-banner-middle {
+            .partner-banner-text-two {
+                h2 {
+                    font-size: 56px;
+                    line-height: 74px;
+                }
+                ul li,
+                p {
+                    font-size: 24px;
+                    line-height: 40px;
+                }
+            }
+        }
+        .partner-banner-bottom {
+            font-size: 44px;
+            line-height: 60px;
+        }
+    }
+
+
+    //  Become Partner Section
+    .become-partner-section {
+        .become-partner-wrapper {
+            .become-partner-content {
+                max-width: 100%;
+                h2 {
+                    font-size: 56px;
+                    line-height: 74px;
+                }
+                a {
+                    font-size: 16px;
+                    max-width: 200px;
+                }
+            }
+        } 
+    }
+
+    .partner-review 
+    .partner-review-header {
+        max-width: 600px;
+    }
+
+    .partner-professional-title {
+        max-width: 100%;
+        font-size: 56px !important;
+        line-height: 74px !important;
+    }
+}
